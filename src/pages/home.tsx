@@ -145,7 +145,7 @@ export default function Home() {
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
           <span className="mr-20">Back End Develoer</span>
-          <span className="text-sm ml-auto">JSep 2022 – Now</span>
+          <span className="text-sm ml-auto">Sep 2022 – Now</span>
         </Paragraph>
         <div className="space-y-1">
           <Paragraph>
