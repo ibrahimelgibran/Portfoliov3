@@ -47,10 +47,9 @@ export default function Home() {
           , is one of my principles while crafting something.
         </Paragraph>
         <Paragraph>
-          Certainly! Here's a corrected version of your English sentences: Apart
-          from coding, there are several other activities that I enjoy. I love
-          these hobbies because they give me a lot of perspective on life, and
-          of course, they're fun. These activities include reading novels,
+          Apart from coding, there are several other activities that I enjoy. I
+          love these hobbies because they give me a lot of perspective on life,
+          and of course, they're fun. These activities include reading novels,
           writing essays, and cooking.
         </Paragraph>
         <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center mt-5">
