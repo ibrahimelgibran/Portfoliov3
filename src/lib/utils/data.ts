@@ -73,7 +73,7 @@ export const worksList: WorksProps[] = [
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-9.jpg&w=1920&q=75",
     name: "CBT Online - WebApps",
-    github: "https://github.com/ibrahimelgibran/UjianOnline",
+    github: "https://github.com/ibrahimelgibran/IegCBT",
     preview: "https://ujianonline.smksmuhammadiyahgamping.sch.id/",
     description:
       "This is a CBT online SMK MUHAMMADIYAH GAMPING for students ESKAMUGA with own fiture complite.",
