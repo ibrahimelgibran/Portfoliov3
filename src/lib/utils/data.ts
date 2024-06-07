@@ -61,7 +61,7 @@ export const photosList = [
 export const worksList: WorksProps[] = [
   {
     id: 1,
-    thumbnail: "https://elgibran.vercel.app/dist/img/portfolio/iegcode.png",
+    thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/iegcode.png",
     name: "IEGCODE - WebApps",
     github: "https://github.com/ibrahimelgibran/iegcodev2",
     preview: "https://www.iegcode.my.id/",
