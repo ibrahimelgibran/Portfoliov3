@@ -49,30 +49,27 @@ export default function Home() {
           of course, they're fun. These activities include reading novels,
           writing essays, and cooking.
         </Paragraph>
-        <footer className="w-full flex justify-center items-center">
-          <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center">
-            <div className="space-x-4 mt-4 sm:mt-0 flex justify-center items-center">
-              <Link to="https://github.com/ibrahimelgibran" target="_blank">
-                <GithubIcon size={20} />
-              </Link>
-              <Link
-                to="https://www.linkedin.com/in/ibrahimelgibran"
-                target="_blank"
-              >
-                <LinkedinIcon size={20} />
-              </Link>
-              <Link
-                to="https://www.facebook.com/ibrahimelgibran"
-                target="_blank"
-              >
-                <FacebookIcon size={20} />
-              </Link>
-              <Link to="https://www.instagram.com/elgibran17/" target="_blank">
-                <InstagramIcon size={20} />
-              </Link>
-            </div>
+        <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center mt-5">
+          <div className="space-x-4 mt-4 sm:mt-0 flex justify-start sm:justify-center items-center sm:items-start w-full sm:w-auto">
+            {" "}
+            {/* Menggunakan flex justify-start di ponsel dan flex justify-center di layar yang lebih besar */}
+            <Link to="https://github.com/ibrahimelgibran" target="_blank">
+              <GithubIcon size={20} />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/ibrahimelgibran"
+              target="_blank"
+            >
+              <LinkedinIcon size={20} />
+            </Link>
+            <Link to="https://www.facebook.com/ibrahimelgibran" target="_blank">
+              <FacebookIcon size={20} />
+            </Link>
+            <Link to="https://www.instagram.com/elgibran17/" target="_blank">
+              <InstagramIcon size={20} />
+            </Link>
           </div>
-        </footer>
+        </div>
       </div>
       <div className="my-6 space-y-6">
         <Heading as="h1">Skills</Heading>
