@@ -31,12 +31,16 @@ export default function Home() {
           <Heading as="h1">こんにちは !</Heading>
         </div>
         <Paragraph>
-          Hello everyone! I am Ibrahim El Gibran, with more than 1+ years
-          experience in a Back End developer. I am a intermediate experienced
-          and I hope with this I can always learning something new to be able to
-          invent digital applications that can help many people in the future.
-          Can work alone or in a team.
-          <br />
+          Hello everyone! I am Ibrahim El Gibran, with more than 10+ Month Of
+          Experience in a Back End developer. Download or View my{" "}
+          <b>
+            <a href="https://drive.google.com/file/d/1s6LHj2dP0ouThY0vaA2NBRuuv-leWN2h/view">
+              (CV.PERSONAL)
+            </a>
+          </b>
+          . I am a intermediate experienced and I hope with this I can always
+          learning something new to be able to invent digital applications that
+          can help many people in the future. Can work alone or in a team.{" "}
           <b>
             <i>Keep it simple</i>
           </b>
@@ -52,7 +56,6 @@ export default function Home() {
         <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center mt-5">
           <div className="space-x-4 mt-4 sm:mt-0 flex justify-start sm:justify-center items-center sm:items-start w-full sm:w-auto">
             {" "}
-            {/* Menggunakan flex justify-start di ponsel dan flex justify-center di layar yang lebih besar */}
             <Link to="https://github.com/ibrahimelgibran" target="_blank">
               <GithubIcon size={20} />
             </Link>
