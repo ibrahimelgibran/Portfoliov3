@@ -4,10 +4,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Simple Portfolio Website with Dark Mode",
-  "homepage": "https://ekel.pages.dev/",
+  "homepage": "https://ibrahimelgibran.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haikelz/portfolio-site/"
+    "url": "https://github.com/ibrahimelgibran/Portofoliov3"
   },
   "type": "module",
   "scripts": {
