@@ -23,9 +23,9 @@ export default function App() {
           <AnimatePresence mode="wait" initial={false}>
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Home />} />
-              <Route path="/photos" element={<Photos />} />
-              <Route path="/works" element={<Works />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/photos/*" element={<Photos />} />
+              <Route path="/works/*" element={<Works />} />
+              <Route path="/contact/*" element={<Contact />} />
 
               {/* Route untuk halaman 404 */}
               <Route path="*" element={<NotFound />} />
