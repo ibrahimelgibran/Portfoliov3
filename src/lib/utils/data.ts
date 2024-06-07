@@ -105,6 +105,15 @@ export const worksList: WorksProps[] = [
     preview: "https://www.gemilangmultiteknologi.my.id/",
     description: "Profil WebApps CMS (Content Manajement System) ESKAMUGA.",
   },
+  {
+    id: 6,
+    thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/cleanee.png",
+    name: "Cleanee - WebApps",
+    github: "https://github.com/ibrahimelgibran/Ci-CleaneeWebApp",
+    preview: "https://www.cleanee.my.id/",
+    description:
+      "Cleanee is here to solve waste problems to integrated waste processing, Cleanee creates digitized and efficient waste processing for the community.",
+  },
 ];
 
 export const routesList: RoutesProps[] = [
