@@ -234,8 +234,8 @@ export default function Home() {
             <br /> • <b>Programming Languages: </b> Express JS and Node JS.
           </Paragraph>
         </div>
-        <hr />
       </div>
+      <br />
 
       <div className="mb-6">
         <div className="space-y-6">
