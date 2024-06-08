@@ -73,6 +73,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className="my-6 space-y-6">
         <Heading as="h1">Skills</Heading>
         <div className="space-y-1">
@@ -92,6 +93,46 @@ export default function Home() {
       </div>
 
       <div className="my-6 space-y-6">
+        <Heading as="h1">Educations & Awards</Heading>
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">Amikom Yogyakarta University</Heading>
+          <span className="text-sm ml-auto">
+            <b>🗒️ 2022 -Present</b>
+          </span>
+        </div>
+        <div className="space-y-1">
+          <Paragraph>• Informatics Engineering</Paragraph>
+        </div>
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">Muhammadiyah Gamping Vocational School</Heading>
+          <span className="text-sm ml-auto">
+            <b>🗒️ 2019 - 2022</b>
+          </span>
+        </div>
+        <div className="space-y-1">
+          <Paragraph> • Software Engineer</Paragraph>
+        </div>
+        <hr />
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">2 Ranking Winner Building Digital Economy</Heading>
+          <span className="text-sm ml-auto">
+            <b>📌 Amikom Yogyakarta University</b>
+          </span>
+        </div>
+        <div className="space-y-1">
+          <Paragraph>
+            • 2 Ranking Winner Compotition Hackathon Building Digital Economy.{" "}
+            <br />• View Document{" "}
+            <b>
+              <a href="https://drive.google.com/drive/folders/1cV7k0In9Ftc6rfKt7O8xVCkbFsRtup8F?usp=sharing">
+                (Certificate).
+              </a>
+            </b>
+          </Paragraph>
+        </div>
+      </div>
+
+      <div className="my-6 space-y-6">
         <Heading as="h1">Experiences</Heading>
         <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">Smk Muhammadiyah Gamping</Heading>
@@ -105,6 +146,7 @@ export default function Home() {
         </Paragraph>
         <div className="space-y-1">
           <Paragraph>
+            • Building CMS (Content Manajement System) for profil school. <br />
             • Responsible for creating several PPDB 2024 - 2025 features,
             dashboards for teachers, students, employees and many more such as
             search filters and form validation. <br /> • Create WebApps CBT or
@@ -183,7 +225,7 @@ export default function Home() {
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
           <span className="mr-20">Back End Develoer</span>
-          <span className="text-sm ml-auto">2023 June - 2023 September </span>
+          <span className="text-sm ml-auto">June 2023 - September 2023</span>
         </Paragraph>
         <div className="space-y-1">
           <Paragraph>

@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="w-full flex justify-center items-center p-4">
       <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center">
         <Paragraph className="font-bold text-sm">
-          ©{date.getFullYear()} made with 💙 me
+          ©{date.getFullYear()} made with 💙 by me
         </Paragraph>
         <div className="space-x-4 mt-4 sm:mt-0 flex justify-center items-center">
           <Link to="https://github.com/ibrahimelgibran" target="_blank">
