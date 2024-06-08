@@ -36,14 +36,14 @@ export const photosList = [
     id: 5,
     name: "photo 5",
   },
-  {
-    id: 6,
-    name: "photo 6",
-  },
-  {
-    id: 7,
-    name: "photo 7",
-  },
+  // {
+  //   id: 6,
+  //   name: "photo 6",
+  // },
+  // {
+  //   id: 7,
+  //   name: "photo 7",
+  // },
   // {
   //   id: 8,
   //   name: "photo 8",
@@ -133,6 +133,15 @@ export const worksList: WorksProps[] = [
     preview: "https://financialapps.vercel.app/",
     description:
       "FinancialApps or Money Manajement. Project that I created using NextJS, TailwindCSS and Firebase.",
+  },
+  {
+    id: 9,
+    thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/pos.png",
+    name: "Point Of Sale - DesktopApps",
+    github: "https://github.com/ibrahimelgibran/POS_MENU",
+    preview: "https://github.com/ibrahimelgibran/POS_MENU",
+    description:
+      "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
   },
 ];
 
