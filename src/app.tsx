@@ -26,7 +26,7 @@ export default function App() {
               <Route path="/photos" element={<Photos />} />
               <Route path="/works" element={<Works />} />
               <Route path="/contact" element={<Contact />} />
-              {/* <Route path="*" element={<NotFound />} /> */}
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
         </LazyMotion>
