@@ -36,14 +36,14 @@ export const photosList = [
     id: 5,
     name: "photo 5",
   },
-  // {
-  //   id: 6,
-  //   name: "photo 6",
-  // },
-  // {
-  //   id: 7,
-  //   name: "photo 7",
-  // },
+  {
+    id: 6,
+    name: "photo 6",
+  },
+  {
+    id: 7,
+    name: "photo 7",
+  },
   // {
   //   id: 8,
   //   name: "photo 8",
@@ -99,20 +99,40 @@ export const worksList: WorksProps[] = [
   {
     id: 5,
     thumbnail:
+      "https://elgibran17.vercel.app/dist/img/portfolio/project-08.png",
+    name: "Soto Ijo Monjali - WebApps",
+    github: "https://github.com/ibrahimelgibran/soim",
+    preview: "https://sotoijomonjali.com/",
+    description:
+      "CMS (Content Manajement System) creating site-wide food menu profiles and taking orders.",
+  },
+  {
+    id: 6,
+    thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-011.png&w=1920&q=75",
     name: "GMT - WebApps",
     github: "https://github.com/ibrahimelgibran/GemilangMultiTeknologi",
     preview: "https://www.gemilangmultiteknologi.my.id/",
-    description: "Profil WebApps CMS (Content Manajement System) ESKAMUGA.",
+    description: "Company Profil CMS (Content Manajement System) GMT.",
   },
   {
-    id: 6,
+    id: 7,
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/cleanee.png",
     name: "Cleanee - WebApps",
     github: "https://github.com/ibrahimelgibran/Ci-CleaneeWebApp",
     preview: "https://www.cleanee.my.id/",
     description:
       "Cleanee is here to solve waste problems to integrated waste processing, Cleanee creates digitized and efficient waste processing for the community.",
+  },
+  {
+    id: 8,
+    thumbnail:
+      "https://elgibran17.vercel.app/dist/img/portfolio/mony-manajement.png",
+    name: "Money Manajement - WebApps",
+    github: "https://github.com/ibrahimelgibran/Money-Manajement",
+    preview: "https://financialapps.vercel.app/",
+    description:
+      "FinancialApps or Money Manajement. Project that I created using NextJS, TailwindCSS and Firebase.",
   },
 ];
 
