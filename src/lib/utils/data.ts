@@ -91,7 +91,7 @@ export const worksList: WorksProps[] = [
     id: 4,
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-04.png&w=1920&q=75",
-    name: "CMS Scholl - WebApps",
+    name: "CMS School - WebApps",
     github: "https://github.com/ibrahimelgibran/Final-Project-CMS",
     preview: "https://info-jadwal-sholat.vercel.app",
     description: "Profil WebApps CMS (Content Manajement System) ESKAMUGA.",
