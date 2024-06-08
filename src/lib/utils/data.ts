@@ -141,7 +141,7 @@ export const worksList: WorksProps[] = [
     github: "https://github.com/ibrahimelgibran/POS_MENU",
     preview: "https://github.com/ibrahimelgibran/POS_MENU",
     description:
-      "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
+      "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN, plugins Spingboot and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
   },
 ];
 

@@ -110,7 +110,7 @@ export default function Home() {
           </span>
         </div>
         <div className="space-y-1">
-          <Paragraph> • Software Engineer</Paragraph>
+          <Paragraph> • Software Engineering</Paragraph>
         </div>
         <hr />
         <div className="flex space-x-2 items-center w-fit">
