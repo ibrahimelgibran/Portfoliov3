@@ -34,7 +34,7 @@ export default function Home() {
           Hello everyone! I am Ibrahim El Gibran, with more than 10+ Month Of
           Experience in a Back End developer. Download or view my{" "}
           <b>
-            <a href="https://drive.google.com/file/d/1OlUIlBHXOGv6HNgfb3NtDPidP3wefSwa/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1OlUIlBHXOGv6HNgfb3NtDPidP3wefSwa/view">
               (CV.PERSONAL)
             </a>
           </b>
