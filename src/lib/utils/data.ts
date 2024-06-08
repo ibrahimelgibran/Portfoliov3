@@ -99,6 +99,16 @@ export const worksList: WorksProps[] = [
   {
     id: 5,
     thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-06-08%20at%2016.07.07.png?updatedAt=1717837637923",
+    name: "Chat Ai Cici - WebApps",
+    github: "https://chat-cici.vercel.app/",
+    preview: "https://chat-cici.vercel.app/",
+    description:
+      "Cici is a 2D AI assistant powered by the powerful large language model Gemini.",
+  },
+  {
+    id: 6,
+    thumbnail:
       "https://elgibran17.vercel.app/dist/img/portfolio/project-08.png",
     name: "Soto Ijo Monjali - WebApps",
     github: "https://github.com/ibrahimelgibran/soim",
@@ -107,7 +117,7 @@ export const worksList: WorksProps[] = [
       "CMS (Content Manajement System) creating site-wide food menu profiles and taking orders.",
   },
   {
-    id: 6,
+    id: 7,
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-011.png&w=1920&q=75",
     name: "GMT - WebApps",
@@ -116,7 +126,7 @@ export const worksList: WorksProps[] = [
     description: "Company Profiles CMS (Content Manajement System) GMT.",
   },
   {
-    id: 7,
+    id: 8,
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/cleanee.png",
     name: "Cleanee - WebApps",
     github: "https://github.com/ibrahimelgibran/Ci-CleaneeWebApp",
@@ -125,7 +135,7 @@ export const worksList: WorksProps[] = [
       "Cleanee is here to solve waste problems to integrated waste processing, Cleanee creates digitized and efficient waste processing for the community.",
   },
   {
-    id: 8,
+    id: 9,
     thumbnail:
       "https://elgibran17.vercel.app/dist/img/portfolio/mony-manajement.png",
     name: "Money Manajement - WebApps",
@@ -135,7 +145,7 @@ export const worksList: WorksProps[] = [
       "FinancialApps or Money Manajement. Project that I created using NextJS, TailwindCSS and Firebase.",
   },
   {
-    id: 9,
+    id: 10,
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/pos.png",
     name: "Point Of Sale - DesktopApps",
     github: "https://github.com/ibrahimelgibran/POS_MENU",
