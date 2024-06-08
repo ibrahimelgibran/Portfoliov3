@@ -141,7 +141,7 @@ export default function Home() {
           </span>
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Full Stack Develoer</span>
+          <span className="mr-20">Full Stack Developer</span>
           <span className="text-sm ml-auto">Okt 2023 – Now</span>
         </Paragraph>
         <div className="space-y-1">
@@ -164,7 +164,7 @@ export default function Home() {
           </span>
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Full Stack Develoer</span>
+          <span className="mr-20">Full Stack Developer</span>
           <span className="text-sm ml-auto">Jan 2024 – Now</span>
         </Paragraph>
         <div className="space-y-1">
@@ -185,7 +185,7 @@ export default function Home() {
           </span>
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Back End Develoer</span>
+          <span className="mr-20">Back End Developer</span>
           <span className="text-sm ml-auto">Sep 2022 – Now</span>
         </Paragraph>
         <div className="space-y-1">
@@ -204,7 +204,7 @@ export default function Home() {
           </span>
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Front End Develoer</span>
+          <span className="mr-20">Front End Developer</span>
           <span className="text-sm ml-auto">Jan 2023 – Now</span>
         </Paragraph>
         <div className="space-y-1">
@@ -224,7 +224,7 @@ export default function Home() {
           </span>
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Back End Develoer</span>
+          <span className="mr-20">Back End Developer</span>
           <span className="text-sm ml-auto">June 2023 - September 2023</span>
         </Paragraph>
         <div className="space-y-1">
