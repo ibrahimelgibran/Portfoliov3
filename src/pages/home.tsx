@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <Paragraph>
           Hello everyone! I am Ibrahim El Gibran, with more than 10+ Month Of
-          Experience in a Back End developer. Download or View my{" "}
+          Experience in a Back End developer. Download or view my{" "}
           <b>
             <a href="https://drive.google.com/file/d/1s6LHj2dP0ouThY0vaA2NBRuuv-leWN2h/view">
               (CV.PERSONAL)
