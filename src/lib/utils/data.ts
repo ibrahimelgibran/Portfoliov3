@@ -85,7 +85,7 @@ export const worksList: WorksProps[] = [
     name: "PPDB Online - WebApps",
     github: "https://github.com/ibrahimelgibran/ci-Eskamuga",
     preview: "https://ppdbv2.smksmuhammadiyahgamping.sch.id/",
-    description: "A Website Profile and PPDB Online 2024-2025.",
+    description: "A Website Profiles and PPDB Online 2024-2025.",
   },
   {
     id: 4,
@@ -94,7 +94,7 @@ export const worksList: WorksProps[] = [
     name: "CMS School - WebApps",
     github: "https://github.com/ibrahimelgibran/Final-Project-CMS",
     preview: "https://info-jadwal-sholat.vercel.app",
-    description: "Profil School CMS (Content Manajement System) ESKAMUGA.",
+    description: "Profiles School CMS (Content Manajement System) ESKAMUGA.",
   },
   {
     id: 5,
@@ -113,7 +113,7 @@ export const worksList: WorksProps[] = [
     name: "GMT - WebApps",
     github: "https://github.com/ibrahimelgibran/GemilangMultiTeknologi",
     preview: "https://www.gemilangmultiteknologi.my.id/",
-    description: "Company Profil CMS (Content Manajement System) GMT.",
+    description: "Company Profiles CMS (Content Manajement System) GMT.",
   },
   {
     id: 7,

@@ -190,7 +190,7 @@ export default function Home() {
         </Paragraph>
         <div className="space-y-1">
           <Paragraph>
-            • A Website Company Profile for your business, Innovation for
+            • A Website Company Profiles for your business, Innovation for
             Technology Freedom and Technology Business Services Platform.
             <br /> • <b>Programming Languages: </b> Node JS, Laravel.
           </Paragraph>
