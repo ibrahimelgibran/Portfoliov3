@@ -225,7 +225,7 @@ export default function Home() {
         </div>
         <Paragraph className="font-semibold mt-0.5 flex items-center">
           <span className="mr-20">Back End Developer</span>
-          <span className="text-sm ml-auto">June 2023 - September 2023</span>
+          <span className="text-sm ml-auto">June 2023 - Sep 2023</span>
         </Paragraph>
         <div className="space-y-1">
           <Paragraph>
