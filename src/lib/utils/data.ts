@@ -94,7 +94,7 @@ export const worksList: WorksProps[] = [
     name: "CMS School - WebApps",
     github: "https://github.com/ibrahimelgibran/Final-Project-CMS",
     preview: "https://info-jadwal-sholat.vercel.app",
-    description: "Profil WebApps CMS (Content Manajement System) ESKAMUGA.",
+    description: "Profil School CMS (Content Manajement System) ESKAMUGA.",
   },
   {
     id: 5,
