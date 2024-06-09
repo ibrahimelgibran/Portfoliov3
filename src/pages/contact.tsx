@@ -15,37 +15,37 @@ export default function Contact() {
 
   useTitle("Contact - ElGibran");
 
-  async function sendMessage(): Promise<void> {
-    try {
-      if (!formRef.current) throw new Error("Form reference is null");
+  // async function sendMessage(): Promise<void> {
+  //   try {
+  //     if (!formRef.current) throw new Error("Form reference is null");
 
-      const response = await emailjs.sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      );
+  //     const response = await emailjs.sendForm(
+  //       import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  //       import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  //       formRef.current,
+  //       import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+  //     );
 
-      console.log("EmailJS response:", response);
+  //     console.log("EmailJS response:", response);
 
-      if (response.status === 200) {
-        setIsSuccessSendMessage(true);
-        setErrorMessage(null);
-      } else {
-        throw new Error(
-          `Failed to send message with status: ${response.status}`
-        );
-      }
-    } catch (err: any) {
-      console.error("Failed to send message:", err);
-      setErrorMessage("Failed to send message! Please try again later.");
-    }
-  }
+  //     if (response.status === 200) {
+  //       setIsSuccessSendMessage(true);
+  //       setErrorMessage(null);
+  //     } else {
+  //       throw new Error(
+  //         `Failed to send message with status: ${response.status}`
+  //       );
+  //     }
+  //   } catch (err: any) {
+  //     console.error("Failed to send message:", err);
+  //     setErrorMessage("Failed to send message! Please try again later.");
+  //   }
+  // }
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    sendMessage();
-  }
+  // function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  //   e.preventDefault();
+  //   sendMessage();
+  // }
 
   return (
     <>
