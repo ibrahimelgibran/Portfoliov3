@@ -160,11 +160,13 @@
 // }
 
 import Layout from "@/components/layout";
+import { Heading } from "@/components/ui/typography";
 // import React from "react";
 
 export default function Contact() {
   return (
     <Layout>
+      <Heading as="h1">Contact</Heading>
       <div className="w-full space-y-6 mt-6">
         <a href="mailto:ibrahimelgibran17@gmail.com?subject=Your%20Subject">
           <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-4 flex items-center">
