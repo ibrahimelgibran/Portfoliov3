@@ -80,7 +80,7 @@ export default function Contact() {
             />
           </div>
           <Button type="submit" className="font-bold">
-            <a href="https://mail.google.com/mail/u/0/?fs=1&to=ibrahimelgibran17@gmail.com&su=Your%20Subject&body=tf=cm">
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=ibrahimelgibran17@gmail.com&su=Your%20Subject&body=Your%20Messages&tf=cm">
               Submit!
             </a>
           </Button>
