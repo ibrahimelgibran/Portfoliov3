@@ -112,7 +112,7 @@ export default function Contact() {
               />
               <div>
                 <div className="font-bold text-xl mb-2 text-black">
-                  Whatsapps
+                  Whatsapp
                 </div>
                 <p className="text-gray-700 text-base">+62 858-7607-6005</p>
                 <p className="text-slate-600 text-base mt-1">
