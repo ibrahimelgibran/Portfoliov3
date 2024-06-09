@@ -183,7 +183,7 @@ export default function Contact() {
           </div>
         </a>
         <br />
-        <a href="https://wa.me/6285876076005?text=Assalamualaikum">
+        <a href="https://wa.me/6285876076005?text=assalamualaikum">
           <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-4 flex items-center">
             <img
               src="https://ibrahimelgibran.vercel.app/assets/svg/whatsapp.svg"
