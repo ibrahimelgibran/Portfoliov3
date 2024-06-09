@@ -166,7 +166,7 @@ export default function Contact() {
   return (
     <Layout>
       <div className="w-full space-y-6 mt-6">
-        <a href="https://mail.google.com/mail/u/0/?fs=1&to=ibrahimelgibran17@gmail.com&su=Your%20Subject&body=&tf=cm">
+        <a href="mailto:ibrahimelgibran17@gmail.com?subject=Your%20Subject">
           <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-4 flex items-center">
             <img
               src="https://ibrahimelgibran.vercel.app/assets/svg/gmail.svg"
