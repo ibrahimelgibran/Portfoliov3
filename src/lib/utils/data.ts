@@ -153,6 +153,16 @@ export const worksList: WorksProps[] = [
     description:
       "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN, plugins Spingboot and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
   },
+  {
+    id: 10,
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2022.24.30.png?updatedAt=1718637981068",
+    name: "Editor Code - WebApps",
+    github: "https://github.com/ibrahimelgibran/TextEditor-CustomeREADME.md",
+    preview: "https://codeapps.vercel.app",
+    description:
+      "An online code editor which supports HTML, CSS, and Javascript Development. A Markdown editor for generating readme.",
+  },
 ];
 
 export const routesList: RoutesProps[] = [
