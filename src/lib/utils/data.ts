@@ -154,7 +154,17 @@ export const worksList: WorksProps[] = [
       "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN, plugins Spingboot and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
   },
   {
-    id: 10,
+    id: 11,
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2023.07.16.png?updatedAt=1718640503465",
+    name: "Github Portofolio - WebApps",
+    github: "https://github.com/ibrahimelgibran/GithubPortfolio",
+    preview: "https://iegcodegithub.vercel.app",
+    description:
+      "Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub, and show another page linking to each repo using nested routes.",
+  },
+  {
+    id: 12,
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2022.24.30.png?updatedAt=1718637981068",
     name: "Editor Code - WebApps",
