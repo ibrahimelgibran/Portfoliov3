@@ -36,10 +36,10 @@ export const photosList = [
     id: 5,
     name: "photo 5",
   },
-  // {
-  //   id: 6,
-  //   name: "photo 6",
-  // },
+  {
+    id: 6,
+    name: "photo 6",
+  },
   // {
   //   id: 7,
   //   name: "photo 7",
