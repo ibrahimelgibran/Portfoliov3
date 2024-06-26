@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
-import { photosList, worksList, blogList } from "@/lib/utils/data";
+import { photosList, worksList, notesList } from "@/lib/utils/data";
 import { Link, useNavigate } from "react-router-dom";
 import {
   FacebookIcon,
@@ -302,9 +302,9 @@ export default function Home() {
       </div>
       <div className="mb-6">
         <div className="space-y-6">
-          <Heading as="h1">Featured Blog</Heading>
+          <Heading as="h1">Featured Notes</Heading>
           <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-1 sm:grid-rows-2 mt-6 gap-4">
-            {blogList.slice(0, 4).map((item) => (
+            {notesList.slice(0, 4).map((item) => (
               <div
                 key={item.id}
                 className="drop-shadow-md bg-white dark:bg-neutral-900"
@@ -317,13 +317,13 @@ export default function Home() {
                 />
 
                 {/* <Link
-                  to={`/blog/${item.id}`}
+                  to={`/notes/${item.id}`}
                   key={item.id}
                   rel="noopener noreferrer"
                   target="_blank"
                 ></Link> */}
                 <Link
-                  to={`/blog`}
+                  to={`/notes`}
                   key={item.id}
                   rel="noopener noreferrer"
                   target="_blank"
@@ -341,7 +341,7 @@ export default function Home() {
           <Button
             type="button"
             aria-label="see other photos"
-            onClick={() => navigate("/blog")}
+            onClick={() => navigate("/notes")}
             className="font-bold"
           >
             See other photos

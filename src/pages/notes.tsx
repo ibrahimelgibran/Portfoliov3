@@ -2,7 +2,7 @@ import Layout from "@/components/layout";
 import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
-import { blogList } from "@/lib/utils/data";
+import { notesList } from "@/lib/utils/data";
 import { Link } from "react-router-dom";
 
 export default function Blog() {
@@ -12,7 +12,7 @@ export default function Blog() {
     <Layout>
       <Heading as="h1">Blog</Heading>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-        {blogList.map((item) => (
+        {notesList.map((item) => (
           <Link
             to={`/blog/${item.id}`}
             key={item.id}

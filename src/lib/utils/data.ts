@@ -1,4 +1,4 @@
-import { BlogProps, RoutesProps, StackProps, WorksProps } from "@/types";
+import { NotesProps, RoutesProps, StackProps, WorksProps } from "@/types";
 
 export const stack: StackProps[] = [
   {
@@ -175,7 +175,7 @@ export const worksList: WorksProps[] = [
   },
 ];
 
-export const blogList: BlogProps[] = [
+export const notesList: NotesProps[] = [
   {
     id: 1,
     thumbnail:
@@ -220,7 +220,7 @@ export const routesList: RoutesProps[] = [
   },
   {
     id: 5,
-    name: "/blog",
+    name: "/notes",
   },
   {
     id: 4,

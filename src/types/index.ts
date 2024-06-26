@@ -13,7 +13,7 @@ export type WorksProps = BaseProps & {
   description: string;
 };
 
-export type BlogProps = BaseProps & {
+export type NotesProps = BaseProps & {
   thumbnail: string;
   github: string;
   preview: string;
