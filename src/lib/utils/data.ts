@@ -1,4 +1,4 @@
-import { RoutesProps, StackProps, WorksProps } from "@/types";
+import { BlogProps, RoutesProps, StackProps, WorksProps } from "@/types";
 
 export const stack: StackProps[] = [
   {
@@ -22,28 +22,28 @@ export const photosList = [
   },
   {
     id: 2,
-    name: "photo 2",
+    name: "photo 7",
   },
   {
     id: 3,
-    name: "photo 3",
+    name: "photo 2",
   },
   {
     id: 4,
-    name: "photo 4",
+    name: "photo 3",
   },
   {
     id: 5,
-    name: "photo 5",
+    name: "photo 4",
   },
   {
     id: 6,
+    name: "photo 5",
+  },
+  {
+    id: 7,
     name: "photo 6",
   },
-  // {
-  //   id: 7,
-  //   name: "photo 7",
-  // },
   // {
   //   id: 8,
   //   name: "photo 8",
@@ -175,6 +175,40 @@ export const worksList: WorksProps[] = [
   },
 ];
 
+export const blogList: BlogProps[] = [
+  {
+    id: 1,
+    thumbnail:
+      "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
+    name: "2 Ranking Winner Building Digital Economy",
+    github: "null",
+    preview:
+      "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
+    description:
+      "Award atas COMPOTITION HACKTHON diselenggarakan oleh ABP INCUBATOR dan PT. PRAISINDO TEKNOLOGI.",
+  },
+  {
+    id: 2,
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/PHOTO-2024-06-07-11-08-03.jpg?updatedAt=1719409386958",
+    name: "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
+    github: "null",
+    preview: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
+    description:
+      "Authentication Github and Google using Spring Boot and Spring Security.",
+  },
+  {
+    id: 3,
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/demo.jpg?updatedAt=1719409739943",
+    name: "Application Todo List",
+    github: "null",
+    preview: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
+    description:
+      "Study Case Todo List Connection Database with Depedency HikariCP and Build a Project using MVN Based Commend Line ☕.",
+  },
+];
+
 export const routesList: RoutesProps[] = [
   {
     id: 1,
@@ -185,7 +219,11 @@ export const routesList: RoutesProps[] = [
     name: "/photos",
   },
   {
-    id: 3,
+    id: 5,
+    name: "/blog",
+  },
+  {
+    id: 4,
     name: "/contact",
   },
 ];

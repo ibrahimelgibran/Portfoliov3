@@ -13,4 +13,11 @@ export type WorksProps = BaseProps & {
   description: string;
 };
 
+export type BlogProps = BaseProps & {
+  thumbnail: string;
+  github: string;
+  preview: string;
+  description: string;
+};
+
 export type RoutesProps = BaseProps;

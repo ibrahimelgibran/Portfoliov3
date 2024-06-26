@@ -10,6 +10,8 @@ import Works from "@/pages/works";
 import { AnimatePresence, LazyMotion, domAnimation } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "./pages/contact";
+import Blog from "./pages/blog";
+import BlogDetail from "./pages/BlogDetail/Hackathon";
 
 export default function App() {
   const location = useLocation();
@@ -23,8 +25,11 @@ export default function App() {
           <AnimatePresence mode="wait" initial={false}>
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Home />} />
-              <Route path="/photos" element={<Photos />} />
               <Route path="/works" element={<Works />} />
+              <Route path="/photos" element={<Photos />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogDetail />} />{" "}
+              {/* New route for blog details */}
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

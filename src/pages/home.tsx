@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
-import { photosList, worksList } from "@/lib/utils/data";
+import { photosList, worksList, blogList } from "@/lib/utils/data";
 import { Link, useNavigate } from "react-router-dom";
 import {
   FacebookIcon,
@@ -294,6 +294,54 @@ export default function Home() {
             type="button"
             aria-label="see other photos"
             onClick={() => navigate("/photos")}
+            className="font-bold"
+          >
+            See other photos
+          </Button>
+        </div>
+      </div>
+      <div className="mb-6">
+        <div className="space-y-6">
+          <Heading as="h1">Featured Blog</Heading>
+          <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-1 sm:grid-rows-2 mt-6 gap-4">
+            {blogList.slice(0, 4).map((item) => (
+              <div
+                key={item.id}
+                className="drop-shadow-md bg-white dark:bg-neutral-900"
+              >
+                <LightboxImage
+                  src={item.thumbnail}
+                  alt={item.name}
+                  loading="lazy"
+                  className="h-[170px] w-full"
+                />
+
+                {/* <Link
+                  to={`/blog/${item.id}`}
+                  key={item.id}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ></Link> */}
+                <Link
+                  to={`/blog`}
+                  key={item.id}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div className="px-4 pt-2 pb-4">
+                    <Heading as="h3">{item.name}</Heading>
+                    <Paragraph className="mt-2 text-sm">
+                      {item.description}
+                    </Paragraph>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
+          <Button
+            type="button"
+            aria-label="see other photos"
+            onClick={() => navigate("/blog")}
             className="font-bold"
           >
             See other photos
