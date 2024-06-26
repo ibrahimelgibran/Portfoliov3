@@ -3,7 +3,7 @@ import Layout from "@/components/layout";
 import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { blogList } from "@/lib/utils/data";
-import { GithubIcon, ExternalLinkIcon } from "lucide-react"; // Import the icons you need
+import { ExternalLinkIcon } from "lucide-react"; // Import the icons you need
 
 export default function BlogDetail() {
   const { id } = useParams<{ id: string }>();
