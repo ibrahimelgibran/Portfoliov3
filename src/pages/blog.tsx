@@ -37,7 +37,7 @@ export default function Blog() {
                 type="button"
                 aria-label={`See other photos of ${item.name}`}
                 onClick={() => `/blog/${item.id}`}
-                className="mt-2 font-bold flex flex-col rounded-lg overflow-hidden bg-white dark:bg-gary-800"
+                className="mt-2 font-bold flex flex-col rounded-lg overflow-hidden dark:bg-gary-800"
               >
                 Read Blog
               </button>
