@@ -18,6 +18,7 @@ export type NotesProps = BaseProps & {
   github: string;
   preview: string;
   description: string;
+  content: string;
 };
 
 export type RoutesProps = BaseProps;

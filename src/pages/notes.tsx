@@ -18,14 +18,14 @@ export default function Notes() {
             className="flex flex-col rounded-lg overflow-hidden shadow-md bg-white dark:bg-neutral-900"
           >
             <Link to={`/notes/${item.id}`} className="flex flex-col h-full">
-              <div className="w-full">
+              <div className="w-full h-48">
                 {" "}
-                {/* Ensure the container is full width */}
+                {/* Set a fixed height for the thumbnail */}
                 <LightboxImage
                   src={item.thumbnail}
                   alt={item.name}
                   loading="lazy"
-                  className="w-full object-cover" // Ensures full image display
+                  className="w-full h-full object-cover" // Ensures full image display
                 />
               </div>
               <div className="p-4 flex-grow">

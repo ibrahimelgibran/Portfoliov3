@@ -323,7 +323,7 @@ export default function Home() {
                   target="_blank"
                 ></Link> */}
                 <Link
-                  to={`/notes`}
+                  to={`/notes/${item.id}`}
                   key={item.id}
                   rel="noopener noreferrer"
                   target="_blank"

@@ -185,7 +185,18 @@ export const notesList: NotesProps[] = [
     preview:
       "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
     description:
-      "Award for COMPOTITION HACKTHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
+      "Award for COMPOTITION HACKATHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
+    content: `
+      <h3 style="font-weight:bold; font-size:20px;">“Build Digital Economy”, ABP X National Seminar and Hackathon Praisindo Successfully Held.</h3>
+      <img class="mt-5" src="https://home.amikom.ac.id/media/2023/07/Picture1.jpg" alt="hackathon">  
+      <p class="mt-5">In a series of prestigious competitions at Amikom University Yogyakarta was named Amikom ICT Award (AMICTA) 2023, has held in collaboration with the Faculty of Computer Science Amikom, Amikom Business Park (ABP) and also Praisindo have held the "Build Digital Economy" Hackathon competition on June 17 2023 for seminars, and June 23 – 24 2023 for the Hackathon competition. This event presents a variety a big figure in the formation of startups and the digital economy. Not missed, participants from various parts of Indonesia attended compete in this event. The important figures who attended this event were: Co-Founder & Director PT. Prasindo Boyke Bader Brilianto, ABP incubation manager, and also Secretary General of the Creative Digital Association Head Solusi 247 Jogja who has shared their experiences regarding the digital economy in a National Seminar with the theme “Build Digital Economy” which is also the opening of Hackathons.</p>
+      <img class="mt-5" src="https://gemilangmultiteknologi.vercel.app/image/innerpage/hackthon.jpg" alt="hackathon">  
+      <p class="mt-5">In today's global market competition, various companies and startups need quality digital talent to make it work compete in a competitive market. Through Hackathons, the circulation of digital talent can be accelerated and at the same time has the potential to generate ideas new information about IT and the digital economy that is really needed in business.</p>
+      <img class="mt-5" src="https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png" alt="hackathon">  
+      <p class="mt-5">This is our team from Gemilang Multi Teknologi take part in a hackthon competition. and develop a BUYR application is a payment application without queuing with Scanner Barcode.
+
+The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front of the participants others and the jury. Hose waiting for announcement Our decision is very happy to be called and chosen get 2nd place and we are very proud of our hard work and dedication.</p>
+      `,
   },
   {
     id: 2,
@@ -196,6 +207,9 @@ export const notesList: NotesProps[] = [
     preview: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
     description:
       "Authentication Github and Google using Spring Boot and Spring Security.",
+    content: `
+      <p>Comming Soon.</p>
+    `,
   },
   {
     id: 3,
@@ -206,6 +220,9 @@ export const notesList: NotesProps[] = [
     preview: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
     description:
       "Study Case Todo List Connection Database with Depedency HikariCP and Build a Project using MVN Based Commend Line ☕.",
+    content: `
+      <p>Comming Soon.</p>
+    `,
   },
 ];
 
