@@ -3,7 +3,7 @@ import Layout from "@/components/layout";
 import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { notesList } from "@/lib/utils/data";
-import { ExternalLinkIcon } from "lucide-react"; // Import the icons you need
+import { ExternalLinkIcon, Github } from "lucide-react"; // Import the icons you need
 
 export default function BlogDetail() {
   const { id } = useParams<{ id: string }>();
@@ -45,9 +45,11 @@ export default function BlogDetail() {
           href={notesPost.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 text-blue-500"
+          className="mt-4 text-blue-500 flex items-center"
         >
           View on GitHub
+          <Github size={20} className="ml-1" />{" "}
+          {/* Pastikan kelas ml-1 tidak mengganggu penempatan */}
         </a>
       )}
       <div

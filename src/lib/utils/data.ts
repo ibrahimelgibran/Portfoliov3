@@ -181,7 +181,7 @@ export const notesList: NotesProps[] = [
     thumbnail:
       "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
     name: "2 Ranking Winner Building Digital Economy",
-    github: "null",
+    github: "",
     preview:
       "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
     description:
@@ -203,8 +203,8 @@ The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front 
     thumbnail:
       "https://ik.imagekit.io/elgibran/PHOTO-2024-06-07-11-08-03.jpg?updatedAt=1719409386958",
     name: "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
-    github: "null",
-    preview: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
+    github: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
+    preview: "",
     description:
       "Authentication Github and Google using Spring Boot and Spring Security.",
     content: `
@@ -216,8 +216,8 @@ The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front 
     thumbnail:
       "https://ik.imagekit.io/elgibran/demo.jpg?updatedAt=1719409739943",
     name: "Application Todo List",
-    github: "null",
-    preview: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
+    github: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial",
+    preview: "",
     description:
       "Study Case Todo List Connection Database with Depedency HikariCP and Build a Project using MVN Based Commend Line ☕.",
     content: `
