@@ -5,44 +5,46 @@ import { useTitle } from "@/hooks";
 import { notesList } from "@/lib/utils/data";
 import { Link } from "react-router-dom";
 
-export default function Blog() {
-  useTitle("Blog - ElGibran");
+export default function Notes() {
+  useTitle("Notes - ElGibran");
 
   return (
     <Layout>
-      <Heading as="h1">Blog</Heading>
+      <Heading as="h1">Notes</Heading>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
         {notesList.map((item) => (
-          <Link
-            to={`/blog/${item.id}`}
+          <div
             key={item.id}
             className="flex flex-col rounded-lg overflow-hidden shadow-md bg-white dark:bg-neutral-900"
           >
-            <LightboxImage
-              src={item.thumbnail}
-              alt={item.name}
-              loading="lazy"
-              className="w-full"
-              style={{ aspectRatio: "16/9" }}
-            />
-            <div className="p-4">
-              <Heading as="h3" className="text-lg font-medium">
-                {item.name}
-              </Heading>
-              <Paragraph className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                {item.description}
-              </Paragraph>
-
-              <button
-                type="button"
-                aria-label={`See other photos of ${item.name}`}
-                onClick={() => `/blog/${item.id}`}
-                className="mt-2 font-bold flex flex-col rounded-lg overflow-hidden dark:bg-gary-800"
-              >
-                Read Blog
-              </button>
+            <Link to={`/notes/${item.id}`} className="flex flex-col h-full">
+              <LightboxImage
+                src={item.thumbnail}
+                alt={item.name}
+                loading="lazy"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-4 flex-grow">
+                <Heading as="h3" className="text-lg font-medium">
+                  {item.name}
+                </Heading>
+                <Paragraph className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                  {item.description}
+                </Paragraph>
+              </div>
+            </Link>
+            <div className="p-4 flex justify-start">
+              <Link to={`/notes/${item.id}`}>
+                <button
+                  type="button"
+                  aria-label={`See other photos of ${item.name}`}
+                  className="font-bold text-sm text-gray-800 dark:text-white bg-transparent hover:bg-white dark:hover:bg-gray-800"
+                >
+                  Read Notes
+                </button>
+              </Link>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </Layout>

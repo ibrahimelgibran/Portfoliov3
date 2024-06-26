@@ -11,6 +11,7 @@ import { AnimatePresence, LazyMotion, domAnimation } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "./pages/contact";
 import Notes from "./pages/notes";
+import NotesDetail from "@/pages/NotesDetail/NotesDetail";
 
 export default function App() {
   const location = useLocation();
@@ -27,7 +28,7 @@ export default function App() {
               <Route path="/works" element={<Works />} />
               <Route path="/photos" element={<Photos />} />
               <Route path="/notes" element={<Notes />} />
-              {/* <Route path="/notes/:id" element={<NotesList />} />{" "} */}
+              <Route path="/notes/:id" element={<NotesDetail />} />
               {/* New route for blog details */}
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
