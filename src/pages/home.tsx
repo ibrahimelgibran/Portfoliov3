@@ -344,7 +344,7 @@ export default function Home() {
             onClick={() => navigate("/notes")}
             className="font-bold"
           >
-            See other photos
+            See other notes
           </Button>
         </div>
       </div>
