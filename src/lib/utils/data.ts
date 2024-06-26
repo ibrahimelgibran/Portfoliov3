@@ -185,7 +185,7 @@ export const blogList: BlogProps[] = [
     preview:
       "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
     description:
-      "Award atas COMPOTITION HACKTHON diselenggarakan oleh ABP INCUBATOR dan PT. PRAISINDO TEKNOLOGI.",
+      "Award for COMPOTITION HACKTHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
   },
   {
     id: 2,
