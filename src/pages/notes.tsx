@@ -18,12 +18,16 @@ export default function Notes() {
             className="flex flex-col rounded-lg overflow-hidden shadow-md bg-white dark:bg-neutral-900"
           >
             <Link to={`/notes/${item.id}`} className="flex flex-col h-full">
-              <LightboxImage
-                src={item.thumbnail}
-                alt={item.name}
-                loading="lazy"
-                className="w-full h-48 object-cover"
-              />
+              <div className="w-full">
+                {" "}
+                {/* Ensure the container is full width */}
+                <LightboxImage
+                  src={item.thumbnail}
+                  alt={item.name}
+                  loading="lazy"
+                  className="w-full object-cover" // Ensures full image display
+                />
+              </div>
               <div className="p-4 flex-grow">
                 <Heading as="h3" className="text-lg font-medium">
                   {item.name}
@@ -38,7 +42,7 @@ export default function Notes() {
                 <button
                   type="button"
                   aria-label={`See other photos of ${item.name}`}
-                  className="font-bold text-sm text-gray-800 dark:text-white bg-transparent hover:bg-white dark:hover:bg-gray-800"
+                  className="font-bold text-gray-800 dark:text-white"
                 >
                   Read Notes
                 </button>
