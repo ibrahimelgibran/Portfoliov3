@@ -201,7 +201,7 @@ The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front 
   {
     id: 2,
     thumbnail:
-      "https://ik.imagekit.io/elgibran/PHOTO-2024-06-07-11-08-03.jpg?updatedAt=1719409386958",
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2015.34.24.png?updatedAt=1719477290606",
     name: "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
     github: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial/",
     preview: "",
@@ -209,10 +209,15 @@ The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front 
       "Authentication Github and Google using Spring Boot and Spring Security.",
     content: `
       <p>Do you want to implement OAuth2 login in your Java applications but feel overwhelmed by the complexity? Look no further! we'll take a quick look at the world of OAuth2 authentication using Spring Boot and Spring Security.</p>
-      <p class="mt-5">First, we install the package from <a style="font-weight: bold" href="https://start.spring.io/">start.spring.io</a> if it is already open. we need to setup spring boot packages, do the same as this.</p>
-      <img class="mt-5" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2008.11.57.png?updatedAt=1719450739801" alt="oauth2">
+      <p class="mt-5" style="font-weight: bold;">Step 1</p>
+      <p>First, we install the package from <a style="font-weight: bold" href="https://start.spring.io/">start.spring.io</a> if it is already open. we need to setup spring boot packages, do the same as this.</p>
+      <img class="mt-5" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2008.11.57.png?updatedAt=1719450739801" alt="Spring Boot">
       <p class="mt-5">For the Java version, you can adapt it to the one you use on your OS device. Then add the "Spring Web" and "OAuth Client" dependencies, if so, create them.</p>
-      <p class="mt-5">A controller in a Spring Boot application that handles HTTP requests and provides responses.</p>
+
+      <p class="mt-5" style="font-weight: bold;">Step 2</p>
+      <p>A controller in a Spring Boot application that handles HTTP requests and provides responses.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2016.00.32.png?updatedAt=1719478840792" alt="file HomeController">
+      <p class="mt-5">Create new folder controller : </br> Add file controller/HomeController.java</p>
       <div style="font-size:8.9px; text-align:left;">
       <pre>
         <code>
@@ -263,6 +268,63 @@ public class HomeController {
       </div>
       <p style="font-weight: bold;">Conclusion</p>
       <p>The HomeController class is a simple controller in a Spring Boot application that handles HTTP GET requests to multiple endpoints (/, /secured, /login) and returns a string response. Additionally, this class also has methods to handle exceptions and redirect the user to an error page if an error occurs.</p>
+
+      <p class="mt-5" style="font-weight: bold;">Step 3</p>
+      <p>If you have handled the HTTP request and provided a response to the HomeController file. then create a new config folder with the SecurityConfig file.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2015.57.21.png?updatedAt=1719478659422" alt="file SecurityConfig">
+      <p class="mt-5">Adding code view on<br> Folder file config/SecurityConfig.</p>
+       <div style="font-size:8.9px; text-align:left;">
+      <pre>
+        <code>
+package dev.iegcode.sosial_login.config;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation
+.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation
+.web.configuration.EnableWebSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+# Class Declaration
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+→ Declare the SecurityConfig class as a configuration class and </br>  enable Spring Security web security.
+
+  # SecurityFilterChain Method
+  @Bean
+  SecurityFilterChain securityFilterChain(HttpSecurity http)
+  throws Exception {
+    http.authorizeHttpRequests(auth -> {
+      auth.requestMatchers("/", "/login", "/oauth2/**")
+      .permitAll();
+      auth.anyRequest().authenticated();
+    })
+    .oauth2Login(oauth2 -> oauth2
+    .defaultSuccessUrl("/secured", true)
+    )
+    .formLogin(form -> form
+    .defaultSuccessUrl("/secured", true)
+    );
+    return http.build();
+  }
+}
+</br>This method defines the security configuration for </br>the application.
+  • AuthorizeHttpRequests: Configure HTTP authorization rules.
+  → "requestMatchers("/", "/login", "/oauth2/**").permitAll()": </br>     Allows unauthenticated access to the root path (/),</br>     login path (/login), and all paths starting </br>     with /oauth2/.
+  → "anyRequest().authenticated():": </br>     Requires authentication for all other requests.
+  </br>
+  • OAuth2Login: Configure login using OAuth2.
+  → "defaultSuccessUrl("/secured", true)": </br>     Redirects users to /secured after successful login.
+  </br>
+  • FormLogin: Configure login using standard login form.
+  → "defaultSuccessUrl("/secured", true)": </br>     Redirects users to /secured after successful login.
+          </div>
+        </code>
+      </pre>
+      <p>Configure login using standard login form.</p>
+      <p class="mt-5" style="font-weight: bold;;">Conclusion </p>
+      <p>Conclusion The SecurityConfig class configures Spring Security web security for the application. It defines authorization rules for HTTP requests, allows unauthenticated access to some endpoints, and redirects users to the /secured page after successful login via either OAuth2 or a standard login form.</p>
       `,
   },
   {
