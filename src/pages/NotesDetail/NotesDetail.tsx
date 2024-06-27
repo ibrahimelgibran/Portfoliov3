@@ -4,6 +4,7 @@ import LightboxImage from "@/components/ui/lightbox-image";
 import { Heading, Paragraph } from "@/components/ui/typography";
 import { notesList } from "@/lib/utils/data";
 import { ExternalLinkIcon, Github } from "lucide-react"; // Import the icons you need
+import { Link } from "react-router-dom";
 
 export default function BlogDetail() {
   const { id } = useParams<{ id: string }>();
@@ -28,7 +29,6 @@ export default function BlogDetail() {
         className="w-full object-cover mt-4"
       />
       <Paragraph className="mt-4">{notesPost.description}</Paragraph>
-
       {notesPost.preview && (
         <a
           href={notesPost.preview}
@@ -53,9 +53,25 @@ export default function BlogDetail() {
         </a>
       )}
       <div
+        style={{
+          maxWidth: "100%",
+          width: "100%",
+          overflowX: "hidden",
+        }}
         className="mt-5"
         dangerouslySetInnerHTML={{ __html: notesPost.content }}
       />
+      <div className="mt-5 flex justify-start items-start">
+        <Link to="/notes">
+          <button
+            type="button"
+            aria-label="See other photos of notes"
+            className="font-bold text-gray-800 dark:text-white w-full text-left"
+          >
+            Back Notes
+          </button>
+        </Link>
+      </div>
     </Layout>
   );
 }

@@ -100,7 +100,7 @@ export default function Home() {
             <b>🗒️ 2022 -Present</b>
           </span>
         </div>
-        <div className="space-y-1">
+        <div className="space-y-1" style={{ marginTop: "-1px" }}>
           <Paragraph>• Informatics Engineering</Paragraph>
         </div>
         <div className="flex space-x-2 items-center w-fit">
@@ -109,7 +109,7 @@ export default function Home() {
             <b>🗒️ 2019 - 2022</b>
           </span>
         </div>
-        <div className="space-y-1">
+        <div className="space-y-1" style={{ marginTop: "-1px" }}>
           <Paragraph> • Software Engineering</Paragraph>
         </div>
         <hr />

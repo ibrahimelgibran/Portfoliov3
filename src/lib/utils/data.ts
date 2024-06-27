@@ -192,7 +192,7 @@ export const notesList: NotesProps[] = [
       <p class="mt-5">In a series of prestigious competitions at Amikom University Yogyakarta was named Amikom ICT Award (AMICTA) 2023, has held in collaboration with the Faculty of Computer Science Amikom, Amikom Business Park (ABP) and also Praisindo have held the "Build Digital Economy" Hackathon competition on June 17 2023 for seminars, and June 23 – 24 2023 for the Hackathon competition. This event presents a variety a big figure in the formation of startups and the digital economy. Not missed, participants from various parts of Indonesia attended compete in this event. The important figures who attended this event were: Co-Founder & Director PT. Prasindo Boyke Bader Brilianto, ABP incubation manager, and also Secretary General of the Creative Digital Association Head Solusi 247 Jogja who has shared their experiences regarding the digital economy in a National Seminar with the theme “Build Digital Economy” which is also the opening of Hackathons.</p>
       <img class="mt-5" src="https://gemilangmultiteknologi.vercel.app/image/innerpage/hackthon.jpg" alt="hackathon">  
       <p class="mt-5">In today's global market competition, various companies and startups need quality digital talent to make it work compete in a competitive market. Through Hackathons, the circulation of digital talent can be accelerated and at the same time has the potential to generate ideas new information about IT and the digital economy that is really needed in business.</p>
-      <img class="mt-5" src="https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png" alt="hackathon">  
+      <img class="mt-5" src="https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg" alt="beasiswa-prestasi">  
       <p class="mt-5">This is our team from Gemilang Multi Teknologi take part in a hackthon competition. and develop a BUYR application is a payment application without queuing with Scanner Barcode.
 
 The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front of the participants others and the jury. Hose waiting for announcement Our decision is very happy to be called and chosen get 2nd place and we are very proud of our hard work and dedication.</p>
@@ -263,8 +263,8 @@ public class HomeController {
     }
     → This method handles exceptions that occur in </br>      the controller. If there is an exception, this method </br>      swill create a ModelAndView object, add an exception (ex) </br>      object to the model, set the view name to "error", </br>      and return a ModelAndView object. This allows the error </br>      view to display information about the exception</br>      that occurred.
 }
-</code>
-      </pre>
+          </code>
+        </pre>
       </div>
       <p style="font-weight: bold;">Conclusion</p>
       <p>The HomeController class is a simple controller in a Spring Boot application that handles HTTP GET requests to multiple endpoints (/, /secured, /login) and returns a string response. Additionally, this class also has methods to handle exceptions and redirect the user to an error page if an error occurs.</p>
@@ -319,25 +319,89 @@ public class SecurityConfig {
   </br>
   • FormLogin: Configure login using standard login form.
   → "defaultSuccessUrl("/secured", true)": </br>     Redirects users to /secured after successful login.
-          </div>
-        </code>
-      </pre>
+          </code>
+        </pre>
+      </div>
       <p>Configure login using standard login form.</p>
       <p class="mt-5" style="font-weight: bold;;">Conclusion </p>
       <p>Conclusion The SecurityConfig class configures Spring Security web security for the application. It defines authorization rules for HTTP requests, allows unauthenticated access to some endpoints, and redirects users to the /secured page after successful login via either OAuth2 or a standard login form.</p>
+
+      <p class="mt-5" style="font-weight: bold;">Step 3</p>
+      <p>This configuration sets up OAuth2 login for Spring Boot applications using GitHub, Google, and Facebook. Here is a brief explanation of each configuration line:</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2021.46.52.png?updatedAt=1719499635000" alt="konfigure application.properties">
+      <p class="mt-2">Adding code resources/application.properties.</p>
+      <div style="font-size:8.9px; text-align:left;">
+      <pre>
+        <code>
+# Github Login
+spring.security.oauth2.client.registration.github.client-id=XXXXX
+spring.security.oauth2.client.registration.github.client-secret=XX
+→ client-id dan client-secret untuk integrasi login </br>  menggunakan GitHub.
+
+# Google Login
+spring.security.oauth2.client.registration.google.client-id=XXXXX
+spring.security.oauth2.client.registration.google.client-secret=XX
+→ client-id dan client-secret untuk integrasi login </br>  menggunakan Google.
+
+# Logging Level
+logging.level.org.springframework.security=TRACE
+→ Set the Spring Security logging level to TRACE to view more </br>  detailed logs related to security processes.
+          </code>
+        </pre>
+      </div>
+ <p>Next to get the api key from the client-id and OAuth client secret.
+</br>
+<p class="mt-2">Github:</p>
+ <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2022.29.30.png?updatedAt=1719502246429" alt="oauth github">
+<p class="mt-2" style="font-weight:bold;"><a href="https://github.com/settings/developers/">Read View Developer OAuth Google </a></p>
+
+<p class="mt-2">Google:</p>
+ <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2022.17.00.png?updatedAt=1719501631942" alt="oauth google">
+<p class="mt-2" style="font-weight:bold;"><a href="https://console.cloud.google.com/">Read View Developer OAuth Google </a></p>
+
+<p class="mt-5" style="font-weight: bold;">Conclusion </p>
+<p>This configuration sets up OAuth2 authentication with GitHub and Google using the provided client-id and client-secret, and enables detailed logging for Spring Security. </p>
+
+<p class="mt-5" style="font-weight: bold;">Step 4</p>  
+<p>If it has been configured, run the project that was created with Spring Boot by running the command:</p>
+<p style="font-weight:bold;">→ mvn spring-boot:run</p>
+<img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2022.38.57.png?updatedAt=1719502747781" alt="run spring-boot">
+<p class="mt-2">Program spring boot a is running.</p>
+<p class="mt-2">Open to browser and search port:</p>
+<p style="font-weight:bold;">→ http://localhost:8080/login</p>
+<img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2015.11.24.png?updatedAt=1719503081926" alt="display project">
+<p class="mt-2">The following is a display from the front-end.</p>
+<p class="mt-2">Let's do an experiment comparing login between OAuth with Github and Google.</p>
+<img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2022.50.49.png?updatedAt=1719503558483" alt="display results">
+<p class="mt-2">So if you log in successfully, you will enter a secure page and display the output Hello, Secure!</p>
+<img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2023.04.09.png?updatedAt=1719504435697" alt="success authentication">
+<p class="mt-2">Data, entered successfully.</p>
+<p class="mt-2">Thank you for your attention, see you again 😊🙌🏻 .</p>
       `,
   },
   {
     id: 3,
-    thumbnail:
-      "https://ik.imagekit.io/elgibran/demo.jpg?updatedAt=1719409739943",
-    name: "Application Todo List",
-    github: "https://github.com/ibrahimelgibran/OAuth2-LoginSosial",
-    preview: "",
+    thumbnail: "https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg",
+    name: "53 Amikom students receive Student Achievement Scholarships",
+    github: "",
+    preview:
+      "https://home.amikom.ac.id/2023/12/27/53-mahasiswa-amikom-terima-beasiswa-mahasiswa-berprestasi/",
     description:
-      "Study Case Todo List Connection Database with Depedency HikariCP and Build a Project using MVN Based Commend Line ☕.",
+      "53 Amikom outstanding students received Odd Semester Student Scholarships T.A. 2023/2024 from Amikom University Yogyakarta. Ceremonial event for awarding scholarships.",
     content: `
-      <p>Comming Soon.</p>
+      <p>53 Orang mahasiswa berprestasi amikom menerima Beasiswa Mahasiswa berprestasi Semester Ganjil T.A. 2023/2024 dari Universitas Amikom Yogyakarta.</p>
+      <img class="mt-2" src="https://home.amikom.ac.id/media/2023/12/IMG_20231218_132310.jpg" alt="beasiswa-amikom-bmb"
+      </br>
+      <p>In his remarks, Deputy Chancellor III for Student and Alumni Affairs, Dr. _Achmad Fauzi_, M.M., said that with this scholarship, it is hoped that students will be more motivated to continue to excel.</p>
+      </br>
+      <p>Chairman of the Foundation, Ir. Rum M. Andri Kr. M. Kom. also added that it is hoped that the scholarships received by these outstanding students will reduce the burden on students, so that they can focus more on thinking about their education.</p>
+      </br>
+      <p>The Scholarship Recipients themselves are based on the results of study evaluation and suitability of files, as well as student achievements in January – July 2023. The achievements achieved by these students can be International Level achievements, National Level achievements, and Regional or Provincial Level achievements.</p>
+      </br>
+      <p>The nominal amount of the scholarship they receive varies, between 1-5 million Rupiah, depending on the level of achievement achieved, whether at the international, national or regional/provincial level. The total scholarships awarded are more than 100 million Rupiah.</p>
+      </br>
+      <p>Pers Release & Dokumentasi:</p>
+      <a style="font-weight:bold; font-size:14px;" href="https://drive.google.com/drive/folders/1Fgg2MlQAh5Fw390HKya3VZ06_XLqWyJo">https://drive.google.com/drive/folders/1Fgg2MlQAh5Fw390HKya3VZ06_XLqWyJo</a>
     `,
   },
 ];
