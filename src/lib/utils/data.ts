@@ -208,8 +208,62 @@ The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front 
     description:
       "Authentication Github and Google using Spring Boot and Spring Security.",
     content: `
-      <p>Comming Soon.</p>
-    `,
+      <p>Do you want to implement OAuth2 login in your Java applications but feel overwhelmed by the complexity? Look no further! we'll take a quick look at the world of OAuth2 authentication using Spring Boot and Spring Security.</p>
+      <p class="mt-5">First, we install the package from <a style="font-weight: bold" href="https://start.spring.io/">start.spring.io</a> if it is already open. we need to setup spring boot packages, do the same as this.</p>
+      <img class="mt-5" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2008.11.57.png?updatedAt=1719450739801" alt="oauth2">
+      <p class="mt-5">For the Java version, you can adapt it to the one you use on your OS device. Then add the "Spring Web" and "OAuth Client" dependencies, if so, create them.</p>
+      <p class="mt-5">A controller in a Spring Boot application that handles HTTP requests and provides responses.</p>
+      <div style="font-size:8.9px; text-align:left;">
+      <pre>
+        <code>
+package dev.iegcode.sosial_login.controller;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+# Class Declaration
+@RestController
+public class HomeController {
+→ Declare the HomeController class as a RESTful controller.
+
+    # Home Method
+    @GetMapping("/")
+    public String home() {
+        return "Hello, Home!";
+    }
+    → This method maps the GET request to the root path ("/") </br>      and returns the string "Hello, Home!" in response.
+
+    # Secured Method
+    @GetMapping("/secured")
+    public String secured() {
+        return "Hello, Secured!";
+    }
+    → This method maps the GET request to the /secured path and </br>      returns the string "Hello, Secured!" in response.
+
+    # Login Method
+    @GetMapping("/login")
+    public String login() {
+        return "Please login!";
+    }
+    → This method maps the GET request to the path /login </br>      and returns the string "Please login!" in response.
+
+    # Exception Handler
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handleException(Exception ex) {
+        ModelAndView mav = new ModelAndView();
+        mav.addObject("exception", ex);
+        mav.setViewName("error");
+        return mav;
+    }
+    → This method handles exceptions that occur in </br>      the controller. If there is an exception, this method </br>      swill create a ModelAndView object, add an exception (ex) </br>      object to the model, set the view name to "error", </br>      and return a ModelAndView object. This allows the error </br>      view to display information about the exception</br>      that occurred.
+}
+</code>
+      </pre>
+      </div>
+      <p style="font-weight: bold;">Conclusion</p>
+      <p>The HomeController class is a simple controller in a Spring Boot application that handles HTTP GET requests to multiple endpoints (/, /secured, /login) and returns a string response. Additionally, this class also has methods to handle exceptions and redirect the user to an error page if an error occurs.</p>
+      `,
   },
   {
     id: 3,
