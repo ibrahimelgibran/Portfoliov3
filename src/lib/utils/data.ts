@@ -353,7 +353,7 @@ logging.level.org.springframework.security=TRACE
 </br>
 <p class="mt-2">Github:</p>
  <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2022.29.30.png?updatedAt=1719502246429" alt="oauth github">
-<p class="mt-2" style="font-weight:bold;"><a href="https://github.com/settings/developers/">Read View Developer OAuth Google </a></p>
+<p class="mt-2" style="font-weight:bold;"><a href="https://github.com/settings/developers/">Read View Developer OAuth Github </a></p>
 
 <p class="mt-2">Google:</p>
  <img class="mt-2" src="https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2022.17.00.png?updatedAt=1719501631942" alt="oauth google">
