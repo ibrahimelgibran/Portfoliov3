@@ -390,7 +390,7 @@ logging.level.org.springframework.security=TRACE
       "53 Amikom outstanding students received Odd Semester Student Scholarships T.A. 2023/2024 from Amikom University Yogyakarta. Ceremonial event for awarding scholarships.",
     content: `
       <p>53 Orang mahasiswa berprestasi amikom menerima Beasiswa Mahasiswa berprestasi Semester Ganjil T.A. 2023/2024 dari Universitas Amikom Yogyakarta.</p>
-      <img class="mt-2" src="https://home.amikom.ac.id/media/2023/12/IMG_20231218_132310.jpg" alt="beasiswa-amikom-bmb"
+      <img class="mt-3" src="https://home.amikom.ac.id/media/2023/12/IMG_20231218_132310.jpg" alt="beasiswa-amikom-bmb"
       </br>
       <p>In his remarks, Deputy Chancellor III for Student and Alumni Affairs, Dr. _Achmad Fauzi_, M.M., said that with this scholarship, it is hoped that students will be more motivated to continue to excel.</p>
       </br>
@@ -399,7 +399,7 @@ logging.level.org.springframework.security=TRACE
       <p>The Scholarship Recipients themselves are based on the results of study evaluation and suitability of files, as well as student achievements in January – July 2023. The achievements achieved by these students can be International Level achievements, National Level achievements, and Regional or Provincial Level achievements.</p>
       </br>
       <p>The nominal amount of the scholarship they receive varies, between 1-5 million Rupiah, depending on the level of achievement achieved, whether at the international, national or regional/provincial level. The total scholarships awarded are more than 100 million Rupiah.</p>
-      <img class="mt-2" src=https://ik.imagekit.io/elgibran/PHOTO-2024-06-28-07-44-54.jpg?updatedAt=1719535605405 alt="attend-the-event">
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/PHOTO-2024-06-28-07-44-54.jpg?updatedAt=1719535605405 alt="attend-the-event">
       <p>I took this photo before attending the event with my teammates.</p>
       </br>
       <p>Pers Release & Dokumentasi:</p>
