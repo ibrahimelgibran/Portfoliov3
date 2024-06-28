@@ -97,7 +97,7 @@ export default function Home() {
         <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">Amikom Yogyakarta University</Heading>
           <span className="text-sm ml-auto">
-            <b>🗒️ 2022 -Present</b>
+            <b>🗒️ 2022 - Present</b>
           </span>
         </div>
         <div className="space-y-1" style={{ marginTop: "-1px" }}>

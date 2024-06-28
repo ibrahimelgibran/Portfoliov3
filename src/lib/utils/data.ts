@@ -22,32 +22,32 @@ export const photosList = [
   },
   {
     id: 2,
-    name: "photo 7",
-  },
-  {
-    id: 3,
     name: "photo 2",
   },
   {
-    id: 4,
+    id: 3,
     name: "photo 3",
   },
   {
-    id: 5,
+    id: 4,
     name: "photo 4",
   },
   {
-    id: 6,
+    id: 5,
     name: "photo 5",
   },
   {
-    id: 7,
+    id: 6,
     name: "photo 6",
   },
-  // {
-  //   id: 8,
-  //   name: "photo 8",
-  // },
+  {
+    id: 7,
+    name: "photo 7",
+  },
+  {
+    id: 8,
+    name: "photo 8",
+  },
   // {
   //   id: 9,
   //   name: "photo 9",
@@ -399,9 +399,11 @@ logging.level.org.springframework.security=TRACE
       <p>The Scholarship Recipients themselves are based on the results of study evaluation and suitability of files, as well as student achievements in January – July 2023. The achievements achieved by these students can be International Level achievements, National Level achievements, and Regional or Provincial Level achievements.</p>
       </br>
       <p>The nominal amount of the scholarship they receive varies, between 1-5 million Rupiah, depending on the level of achievement achieved, whether at the international, national or regional/provincial level. The total scholarships awarded are more than 100 million Rupiah.</p>
+      <img class="mt-2" src=https://ik.imagekit.io/elgibran/PHOTO-2024-06-28-07-44-54.jpg?updatedAt=1719535605405 alt="attend-the-event">
+      <p>I took this photo before attending the event with my teammates.</p>
       </br>
       <p>Pers Release & Dokumentasi:</p>
-      <a style="font-weight:bold; font-size:14px;" href="https://drive.google.com/drive/folders/1Fgg2MlQAh5Fw390HKya3VZ06_XLqWyJo">https://drive.google.com/drive/folders/1Fgg2MlQAh5Fw390HKya3VZ06_XLqWyJo</a>
+      <a style="font-weight:bold; font-size:13px;" href="https://drive.google.com/drive/folders/1Fgg2MlQAh5Fw390HKya3VZ06_XLqWyJo">https://drive.google.com/drive/folders/1Fgg2MlQAh5Fw390HKya3VZ06_XLqWyJo</a>
     `,
   },
 ];
