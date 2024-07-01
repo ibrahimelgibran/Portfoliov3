@@ -50,7 +50,7 @@ export default function Home() {
           Apart from coding, there are several other activities that I enjoy. I
           love these hobbies because they give me a lot of perspective on life,
           and of course, they're fun. These activities include reading novels,
-          writing essays, and cooking.
+          writing essays and cooking.
         </Paragraph>
         <div className="w-full max-w-xl flex justify-center sm:justify-between flex-col sm:flex-row items-center mt-5">
           <div className="space-x-4 mt-4 sm:mt-0 flex justify-start sm:justify-center items-center sm:items-start w-full sm:w-auto">
