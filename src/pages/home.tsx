@@ -73,7 +73,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <br />
+
       <div className="my-6 space-y-6">
         <Heading as="h1">Skills</Heading>
         <div className="space-y-1">
