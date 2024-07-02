@@ -202,7 +202,7 @@ export const notesList: NotesProps[] = [
       <p class="mt-3">The explanation of the code is:</p>
       <p><strong>→ FROM : </strong>images from where, for example, initiating a project so you can use it from node:16 can be read in docker hub node.</p>
       <p><strong>→ WORKDIR : </strong>when it reaches the contest it will immediately initiate which is free in this case I entered it in /usr/app.</p>
-      <p><strong>→ COPY . . : </strong>untuk mengcopy dari lokal direktori sekarang ke kontainer dan kasus ini akan di copy semua di folder ini tersebut. Example: COPY. . (Resource walkway and destination point).</p>
+      <p><strong>→ COPY . . : </strong>To copy from the current local directory to the container and in this case everything will be copied in this folder. Example: COPY. . (Resource walkway and destination point).</p>
       <p><strong>→ RUN npm install : </strong>I want to run a sample comment.</p>
       <p><strong>→ EXPOSE 3000 : </strong>Next, expose the port that is running on the express.</p>
       <p><strong>→ CMD [“nam”, “start”] : </strong>The last comment you want to make is to run the app.</p>
