@@ -179,23 +179,69 @@ export const notesList: NotesProps[] = [
   {
     id: 1,
     thumbnail:
-      "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
-    name: "2 Ranking Winner Building Digital Economy",
-    github: "",
-    preview:
-      "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
+      "https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2020.08.15.png?updatedAt=1719925760545",
+    name: "Development Node JS with Docker, Sample run and watch change Node JS Express with Docker",
+    github: "https://github.com/ibrahimelgibran/Development-nodejs-docker",
+    preview: "",
     description:
-      "Award for COMPOTITION HACKATHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
+      "Build docker images and running container application for nodejs.",
     content: `
-      <h3 style="font-weight:bold; font-size:20px;">“Build Digital Economy”, ABP X National Seminar and Hackathon Praisindo Successfully Held.</h3>
-      <img class="mt-5" src="https://home.amikom.ac.id/media/2023/07/Picture1.jpg" alt="hackathon">  
-      <p class="mt-5">In a series of prestigious competitions at Amikom University Yogyakarta was named Amikom ICT Award (AMICTA) 2023, has held in collaboration with the Faculty of Computer Science Amikom, Amikom Business Park (ABP) and also Praisindo have held the "Build Digital Economy" Hackathon competition on June 17 2023 for seminars, and June 23 – 24 2023 for the Hackathon competition. This event presents a variety a big figure in the formation of startups and the digital economy. Not missed, participants from various parts of Indonesia attended compete in this event. The important figures who attended this event were: Co-Founder & Director PT. Prasindo Boyke Bader Brilianto, ABP incubation manager, and also Secretary General of the Creative Digital Association Head Solusi 247 Jogja who has shared their experiences regarding the digital economy in a National Seminar with the theme “Build Digital Economy” which is also the opening of Hackathons.</p>
-      <img class="mt-5" src="https://gemilangmultiteknologi.vercel.app/image/innerpage/hackthon.jpg" alt="hackathon">  
-      <p class="mt-5">In today's global market competition, various companies and startups need quality digital talent to make it work compete in a competitive market. Through Hackathons, the circulation of digital talent can be accelerated and at the same time has the potential to generate ideas new information about IT and the digital economy that is really needed in business.</p>
-      <img class="mt-5" src="https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg" alt="beasiswa-prestasi">  
-      <p class="mt-5">This is our team from Gemilang Multi Teknologi take part in a hackthon competition. and develop a BUYR application is a payment application without queuing with Scanner Barcode.
-
-The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front of the participants others and the jury. Hose waiting for announcement Our decision is very happy to be called and chosen get 2nd place and we are very proud of our hard work and dedication.</p>
+      <p>Before running the docker application, first create a nodejs project. Open browser klick <a href="https://expressjs.com/en/starter/generator.html" style="font-weight:bold;">"Express"</a> application generator. Make sure you have express installed. If it has been installed, create the project with the command: </br> $ express --view=pug myapp</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.31.56.png?updatedAt=1719924517784" alt="install project express">  
+      <p class="mt-5">If so, you need to continue installing the dependency.</p>
+      <p style="font-weight:bold;">$ cd myapp.</p>
+      <p style="font-weight:bold;">$ npm install.</p>
+      <p class=mt-5>Next if it is successful. Download the <a href="https://www.docker.com/products/docker-desktop/"><strong>"Docker desktop"</strong></a> application via the official website.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2022.01.09.png?updatedAt=1719932477130" alt="dockerdownload">
+      <p class="mt-5">Install docker on your respective OS or operating system. Jika sudah terinstall bisa open aplikasi docker desktopnya. If it has been installed, you can open the Docker desktop application.</p>
+      <p class="mt-5">next if the installation is successful. Open text editor visual code studio and create a <strong>"dockerfile"</strong> in the root folder.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.37.25.png?updatedAt=1719924516581" style="height:300px;" alt="createfiledocker">  
+      <p class="mt-5">If it has been created then fill in the code in the dockerfile file.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.37.54.png?updatedAt=1719924517905" alt="CODE DOCKER FILE">  
+      <p class="mt-5">The next explanation for the code above is: Just setup for development mode, for example in local, when there is a change in the code, you can run it directly via Docker.</p>
+      <p class="mt-3">The explanation of the code is:</p>
+      <p><strong>→ FROM : </strong>images from where, for example, initiating a project so you can use it from node:16 can be read in docker hub node.</p>
+      <p><strong>→ WORKDIR : </strong>when it reaches the contest it will immediately initiate which is free in this case I entered it in /usr/app.</p>
+      <p><strong>→ COPY . . : </strong>untuk mengcopy dari lokal direktori sekarang ke kontainer dan kasus ini akan di copy semua di folder ini tersebut. Example: COPY. . (Resource walkway and destination point).</p>
+      <p><strong>→ RUN npm install : </strong>I want to run a sample comment.</p>
+      <p><strong>→ EXPOSE 3000 : </strong>Next, expose the port that is running on the express.</p>
+      <p><strong>→ CMD [“nam”, “start”] : </strong>The last comment you want to make is to run the app.</p>
+      <p class="mt-2">This is the configuration for generating images for docker.</p>
+      <p class="mt-5"><strong>Step 1</strong></p>
+      <p class="mt-3">This is so that the Docker container can, in other words, watch local changes, it's called a volume, it can sort of synchronize. Still using the image configuration that was created earlier.</p>
+      <p class="mt-2">Next build the app:</p>
+      <p><strong>$ docker build . -t ieg-run</strong></p>
+       <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.40.10.png?updatedAt=1719924517805" alt="build-docker">  
+      <p class="mt-5">Check the build results:</p>
+      <p><strong>$ docker images</strong></p>
+      <p class="mt-5">The images are ready, just run as a container:</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.43.05.png?updatedAt=1719924517636" alt="run-docker">  
+      <p>You can search with the command: <strong>$ pwd</strong> </br> Then hassel : /Users/elgibran17/Documents/Dekstop/myapp</p>
+      <p class="mt-5">Then when you want to run the container.</p>
+      <p>add the volume:<strong> $ docker run --volume=/Users/elgibran17/Documents/Dekstop/myapp:/usr/app -p 3000:3000 -d ieg-run</strong></br>Note: add the destination:/usr/app</p>
+      <p class="mt-5">View running containers:</p>
+      <p><strong>$ docker ps</strong></p>
+      <p class="mt-5">Additionally, you can also use it via the Docker desktop application. </br>Example:</p>
+      <p>Open run images, input volumes or host path and destination or container path.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.46.46.png?updatedAt=1719924520410" style="height:400px" alt="run-forapps">
+      <p class="mt-5">Check container, make sure it runs smoothly:</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.45.00.png?updatedAt=1719924517741" alt="check-container">
+      <p class="mt-5">Check files, ensure the build results are successful:</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.45.46.png?updatedAt=1719924520017" alt="check-container">
+      <p class="mt-5">more or less.</p>
+      <p class="mt-5"><strong>Step 2</strong></p>
+      <p class=mt-5>Open the desktop application docker, Make sure it is connected.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.41.07.png?updatedAt=1719924516770" alt="run-docker">  
+      <p class=mt-5>Next one, check the container on the application desktop.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.43.24.png?updatedAt=1719924517349" alt="run-container">  
+      <p class=mt-5>Next two, check the browser for access port: <span><strong>"localhost:3000".</strong></span></p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.43.48.png?updatedAt=1719924517269" alt="run-browser">  
+      <p class="mt-2">Next I tried to edit the code page.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.44.52.png?updatedAt=1719924517722" alt="edit-codepug">  
+      <p class="mt-2">After saving, it will automatically be updated with the composer connected to our OS.</p>
+      <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.45.06.png?updatedAt=1719924519566" alt="output-browser">  
+      <p class="mt-5"><strong>In conclusion, </strong>Docker helps run applications in containers without the need for a separate physical or virtual server. For example, commands like npm start can be run in a Docker container, which makes them very useful for running programs and applications quickly and consistently across different environments. Docker allows developers to package an application and all its dependencies into a single standard unit that can be run anywhere.</p>
+      <p class="mt-5">Thank you for coming, see you soon.</p>
       `,
   },
   {
@@ -381,6 +427,28 @@ logging.level.org.springframework.security=TRACE
   },
   {
     id: 3,
+    thumbnail:
+      "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
+    name: "2 Ranking Winner Building Digital Economy",
+    github: "",
+    preview:
+      "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
+    description:
+      "Award for COMPOTITION HACKATHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
+    content: `
+      <h3 style="font-weight:bold; font-size:20px;">“Build Digital Economy”, ABP X National Seminar and Hackathon Praisindo Successfully Held.</h3>
+      <img class="mt-5" src="https://home.amikom.ac.id/media/2023/07/Picture1.jpg" alt="hackathon">  
+      <p class="mt-5">In a series of prestigious competitions at Amikom University Yogyakarta was named Amikom ICT Award (AMICTA) 2023, has held in collaboration with the Faculty of Computer Science Amikom, Amikom Business Park (ABP) and also Praisindo have held the "Build Digital Economy" Hackathon competition on June 17 2023 for seminars, and June 23 – 24 2023 for the Hackathon competition. This event presents a variety a big figure in the formation of startups and the digital economy. Not missed, participants from various parts of Indonesia attended compete in this event. The important figures who attended this event were: Co-Founder & Director PT. Prasindo Boyke Bader Brilianto, ABP incubation manager, and also Secretary General of the Creative Digital Association Head Solusi 247 Jogja who has shared their experiences regarding the digital economy in a National Seminar with the theme “Build Digital Economy” which is also the opening of Hackathons.</p>
+      <img class="mt-5" src="https://gemilangmultiteknologi.vercel.app/image/innerpage/hackthon.jpg" alt="hackathon">  
+      <p class="mt-5">In today's global market competition, various companies and startups need quality digital talent to make it work compete in a competitive market. Through Hackathons, the circulation of digital talent can be accelerated and at the same time has the potential to generate ideas new information about IT and the digital economy that is really needed in business.</p>
+      <img class="mt-5" src="https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg" alt="beasiswa-prestasi">  
+      <p class="mt-5">This is our team from Gemilang Multi Teknologi take part in a hackthon competition. and develop a BUYR application is a payment application without queuing with Scanner Barcode.
+
+The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front of the participants others and the jury. Hose waiting for announcement Our decision is very happy to be called and chosen get 2nd place and we are very proud of our hard work and dedication.</p>
+      `,
+  },
+  {
+    id: 4,
     thumbnail: "https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg",
     name: "53 Amikom students receive Student Achievement Scholarships",
     github: "",
