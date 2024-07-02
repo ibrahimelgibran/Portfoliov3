@@ -193,7 +193,7 @@ export const notesList: NotesProps[] = [
       <p style="font-weight:bold;">$ npm install.</p>
       <p class=mt-5>Next if it is successful. Download the <a href="https://www.docker.com/products/docker-desktop/"><strong>"Docker desktop"</strong></a> application via the official website.</p>
       <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2022.01.09.png?updatedAt=1719932477130" alt="dockerdownload">
-      <p class="mt-5">Install docker on your respective OS or operating system. Jika sudah terinstall bisa open aplikasi docker desktopnya. If it has been installed, you can open the Docker desktop application.</p>
+      <p class="mt-5">Install docker on your respective OS or operating system. If it has been installed, you can open the Docker desktop application.</p>
       <p class="mt-5">next if the installation is successful. Open text editor visual code studio and create a <strong>"dockerfile"</strong> in the root folder.</p>
       <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.37.25.png?updatedAt=1719924516581" style="height:300px;" alt="createfiledocker">  
       <p class="mt-5">If it has been created then fill in the code in the dockerfile file.</p>
