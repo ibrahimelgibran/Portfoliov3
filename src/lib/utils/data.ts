@@ -186,7 +186,7 @@ export const notesList: NotesProps[] = [
     description:
       "Build docker images and running container application for nodejs.",
     content: `
-      <p>Before running the docker application, first create a nodejs project. Open browser klick <a href="https://expressjs.com/en/starter/generator.html" style="font-weight:bold;">"Express"</a> application generator. Make sure you have express installed. If it has been installed, create the project with the command: </br> $ express --view=pug myapp</p>
+      <p>Before running the docker application, first create a nodejs project. Open browser klick <a href="https://expressjs.com/en/starter/generator.html" style="font-weight:bold;">"Express"</a> application generator. Make sure you have express installed. If it has been installed, create the project with the command: </br><strong>$ express --view=pug myapp</strong></p>
       <img class="mt-2" src="https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2019.31.56.png?updatedAt=1719924517784" alt="install project express">  
       <p class="mt-5">If so, you need to continue installing the dependency.</p>
       <p style="font-weight:bold;">$ cd myapp.</p>
