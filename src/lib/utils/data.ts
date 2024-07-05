@@ -101,7 +101,7 @@ export const worksList: WorksProps[] = [
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-08%20at%2016.07.07.png?updatedAt=1717837637923",
     name: "Chat Ai Cici - WebApps",
-    github: "https://chat-cici.vercel.app/",
+    github: "https://github.com/ibrahimelgibran/chat-ai-cici/",
     preview: "https://chat-cici.vercel.app/",
     description:
       "Cici is a 2D AI assistant powered by the powerful large language model Gemini.",
