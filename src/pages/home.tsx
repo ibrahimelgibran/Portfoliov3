@@ -87,7 +87,7 @@ export default function Home() {
             <b>Tools:</b> Intellij IDEA, Visual Studio Code.
           </Paragraph>
           <Paragraph>
-            <b>Others:</b> MYSQL, MongoDB, Docker, Postman, Firebase.
+            <b>Others:</b> MYSQL, MongoDB, Docker, Postman, Firebase, Supabase.
           </Paragraph>
         </div>
       </div>
