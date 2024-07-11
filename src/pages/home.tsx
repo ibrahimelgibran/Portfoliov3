@@ -64,9 +64,9 @@ export default function Home() {
             >
               <LinkedinIcon size={20} />
             </Link>
-            <Link to="https://www.facebook.com/ibrahimelgibran" target="_blank">
+            {/* <Link to="https://www.facebook.com/ibrahimelgibran" target="_blank">
               <FacebookIcon size={20} />
-            </Link>
+            </Link> */}
             <Link to="https://www.instagram.com/elgibran17/" target="_blank">
               <InstagramIcon size={20} />
             </Link>
