@@ -6,7 +6,7 @@ import { useTitle } from "@/hooks";
 import { photosList, worksList, notesList } from "@/lib/utils/data";
 import { Link, useNavigate } from "react-router-dom";
 import {
-  FacebookIcon,
+  // FacebookIcon,
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,

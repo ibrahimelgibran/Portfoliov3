@@ -1,5 +1,5 @@
 import {
-  FacebookIcon,
+  // FacebookIcon,
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
