@@ -114,7 +114,9 @@ export default function Home() {
         </div>
         <hr />
         <div className="flex space-x-2 items-center w-fit">
-          <Heading as="h3">2 Ranking Winner Building Digital Economy</Heading>
+          <Heading as="h3">
+            2 Ranking Winner Hackathon 2023 - "Building Digital Economy"
+          </Heading>
           <span className="text-sm ml-auto">
             <b>📌 Amikom Yogyakarta University</b>
           </span>
@@ -122,11 +124,34 @@ export default function Home() {
         <div className="space-y-1">
           <Paragraph>
             • 2 Ranking Winner Compotition Hackathon Building Digital Economy.{" "}
-            <br />• View Document{" "}
+            <br /> • In the development of the "Queue Free Payment Application"
+            organized by Amikom University Yogyakarta and in collaboration with
+            PT. Praisindo Technology, from 17 June 2023 to 24 June 2023. <br />•
+            View Document{" "}
             <b>
               <a href="https://drive.google.com/drive/folders/1cV7k0In9Ftc6rfKt7O8xVCkbFsRtup8F?usp=sharing">
                 (Certificate).
               </a>
+            </b>
+          </Paragraph>
+        </div>
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">
+            2 Ranking Winner AMICTA 2024 - "Messenger Of Innovation Change"
+          </Heading>
+          <span className="text-sm ml-auto">
+            <b>📌 Amikom Yogyakarta University</b>
+          </span>
+        </div>
+        <div className="space-y-1">
+          <Paragraph>
+            • 2 Ranking Winner Compotition Hackathon Building Digital Economy.{" "}
+            <br />• Digital business category Development of "Cleanee
+            Application for Digital Waste Processing and Development of Object
+            Detection with AI for object sorting" organized by Amikom University
+            Yogyakarta, on June 7, 2024 to July 12, 2024. <br />• View Document{" "}
+            <b>
+              <a href="#">(Certificate).</a>
             </b>
           </Paragraph>
         </div>
@@ -174,6 +199,28 @@ export default function Home() {
             e-commerce personal who provides services your need. there are some
             type very product pada e-commerce 🛒.
             <br /> • <b>Programming Languages: </b> PHP, Codeigniter and MYSQL.
+          </Paragraph>
+        </div>
+        <hr />
+
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">Cleanee</Heading>
+          <span className="text-sm ml-auto">
+            <b>- Full Time</b>
+          </span>
+        </div>
+        <Paragraph className="font-semibold mt-0.5 flex items-center">
+          <span className="mr-20">Full Stack Developer</span>
+          <span className="text-sm ml-auto">April 2024 – Now</span>
+        </Paragraph>
+        <div className="space-y-1">
+          <Paragraph>
+            • Digital waste processing platform and development of object
+            detection for object selection with Artificial Intelligence. <br />{" "}
+            <br /> • <b>Programming Languages WebApps: </b> PHP, Codeigniter and
+            MYSQL.
+            <br /> • <b>Programming Languages Detection Object Ai : </b> React
+            JS and TensorFlow JS
           </Paragraph>
         </div>
         <hr />
