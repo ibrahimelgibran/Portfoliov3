@@ -151,7 +151,9 @@ export default function Home() {
             Detection with AI for object sorting" organized by Amikom University
             Yogyakarta, on June 7, 2024 to July 12, 2024. <br />• View Document{" "}
             <b>
-              <a href="#">(Certificate).</a>
+              <a href="https://drive.google.com/drive/folders/1fdGu6asl6WM6kqFKuyFHdoqZBj0pg2mP?usp=sharing">
+                (Certificate).
+              </a>
             </b>
           </Paragraph>
         </div>

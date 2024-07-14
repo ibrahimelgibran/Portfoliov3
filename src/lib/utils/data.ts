@@ -52,10 +52,10 @@ export const photosList = [
     id: 9,
     name: "photo 9",
   },
-  // {
-  //   id: 10,
-  //   name: "photo 10",
-  // },
+  {
+    id: 10,
+    name: "photo 10",
+  },
 ];
 
 export const worksList: WorksProps[] = [
@@ -179,6 +179,72 @@ export const notesList: NotesProps[] = [
   {
     id: 1,
     thumbnail:
+      "https://ik.imagekit.io/elgibran/AMICTA/Screenshot%202024-07-14%20at%2019.14.15.png?updatedAt=1720959265089",
+    name: "2 Ranking Winner AMICTA 2024 - Messenger Of Innovation Change",
+    github: "",
+    preview:
+      "https://home.amikom.ac.id/2024/07/12/inagurasi-kompetisi-ict-amicta-2024/",
+    description:
+      "This award competition was held to increase the culture of competitive achievement for the Indonesian people, especially the academic community at Amikom University Yogyakarta at the Faculty of Computer Science (FIK).",
+    content: `
+      <p>Yogyakarta Amikom University held the inauguration of the 2024 AMICTA ICT Competition in the Amikom Cinema Room. This event is the culmination of the AMICTA 2024 series of activities which have been ongoing since it was launched on June 7 2024, until it culminated in the Awarding and Inauguration event on July 12 2024.</p>
+      <img class="mt-3" src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/124/2024/07/12/amicta1-1678305079.jpg" alt="award-amicta"
+      </br>
+      <p class="mt-3">This ICT competition is divided into 11 categories, with details of 8 product based categories, namely: Videography and VFX, 2D & 3D Animation, Learning Media (AR/VR), Information System Applications, UI/UX Design, Digital Business, Game Development, AI and IoT. As well as 3 Skill Based Categories, namely: Programming, Cyber ​​Security, and Networking.</p>
+      </br>
+      <p><strong>Initial journey:</strong></p>
+      <p>AMICTA 2024 Work Exhibition. Yogyakarta, 9 July 2024 – AMIKOM Yogyakarta University is proud to hold the AMICTA 2024 Work Exhibition which will take place on 9 July 2024, from 08.00 to 16.00 WIB, in Basement 5. This exhibition is one of a series of events from AMICTA 2024, which started from the launch on June 7 2024 and will culminate at the Awarding and Inauguration event on July 12 2024.</p>
+      </br>
+      <p>Dr. Achmad Fauzi, S.E, M.M, Deputy Chancellor III for Student and Alumni Affairs, AMIKOM University Yogyakarta. In his speech, he gave extraordinary appreciation to this year's AMICTA participants with the tagline "Messenger of Innovation Change." This tagline is an extraordinary message for AMICTA 2024 which aims to solve problems that exist in society while making a real contribution to Indonesia's progress. <br/><br/> He also expressed his hope that this activity could be participated in by students from other schools and universities throughout Indonesia, so that this event could become national.</p>
+      <img class="mt-3" src=https://home.amikom.ac.id/media/2024/07/IAF01346.jpg alt="reception-amicta">
+      <p class="mt-1">Opening remarks by Dr. Achmad Fauzi, S.E, M.M.</p>
+      </br>
+      <p>When the event opens. Next, the exhibition and then the hackathon began by introducing all the products being developed. Apart from that, my team and I also have a supervisor, namely Moch Farid Fauzi, M.Kom. He was very instrumental and highly respected in providing good solutions and at that time the Head of the Barka Study Program, Satya, M.Kom and his staff, Ainul Yaqin, S.Kom., M.Kom. He was very interested in the products we developed.</p>
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/PHOTO-2024-07-14-19-44-49(1).jpg?updatedAt=1720961105809 alt="review-product">
+      <br/>
+      <p>Apart from that, we were also visited by one of the founders of Amikom who was very instrumental, namely Prof. M. Suyanto, M.M. My team and I introduced the product we were making and he was very interested and had an interesting Q&A session with him.</p>
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/PHOTO-2024-07-14-19-44-49.jpg?updatedAt=1720961101763 alt="profyanto">
+      <br/>
+      <p><strong>Product introduction:</strong></p>
+      <p>Cleanee Application: DIGITALIZED WASTE PROCESSING. On demand service platform, our product offers digitalized waste processing with a pickup service for organic waste that cannot be processed, we will use it as maggot material and inorganic materials will be recycled to produce plastic pellets for export. Apart from that, we also developed an object detection program with AI or Artificial Intelligence for the object sorting process.</p>
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/Screenshot%202024-07-14%20at%2019.59.19.png?updatedAt=1720961969834 alt="cleanee-webapps">
+      <a style="font-weight:bold; font-size:13px;" href="https://www.cleanee.my.id">www.cleanee.my.id</a>
+      <p>Next, detect objects with Artificial Intelligence.</p>
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/Screenshot_2024-07-14_at_19.55.07-transformed.png?updatedAt=1720963804569 alt="cleaneescan-webapps">
+      <a style="font-weight:bold; font-size:13px;" href="https://cleaneescan.vercel.app/">https://cleaneescan.vercel.app</a>
+      <br/>
+      <p class="mt-3"><strong>Championship day:</strong></p>
+      <p>July 12 2024, Amikom Cinema Room. The wait continues to see who will win. At that time I prayed that that day the product that had been created would win. I tried to think positively even though it made my heart beat fast when the wait arrived.</p>
+      </br>
+      <p>Furthermore, when the announcement continued in the digital business category, there were 6 products that received a warm welcome on the cinema screens there. I prayed that I would win and I didn't expect that when I got 2nd place, the product I created was successful in becoming 2nd place. I really felt proud and happy that day, I was very moved because my hard work in developing the application paid off by getting 2nd place in the championship.</p>
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/Screenshot_2024-07-14_at_20.26.39-transformed.png?updatedAt=1720963680962 alt="award2-amcita">
+      <p class="mt-3"><strong>Conclusion of the story:</strong></p>
+      <p class="mt-2">Nothing is possible. Anyone who is serious will succeed.</p>
+    `,
+  },
+  {
+    id: 2,
+    thumbnail:
+      "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
+    name: "2 Ranking Winner HACKATHON 2023 - Building Digital Economy",
+    github: "",
+    preview:
+      "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
+    description:
+      "Award for COMPOTITION HACKATHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
+    content: `
+      <h3 style="font-weight:bold; font-size:20px;">“Build Digital Economy”, ABP X National Seminar and Hackathon Praisindo Successfully Held.</h3>
+      <img class="mt-5" src="https://home.amikom.ac.id/media/2023/07/Picture1.jpg" alt="hackathon">  
+      <p class="mt-5">In a series of prestigious competitions at Amikom University Yogyakarta was named Amikom ICT Award (AMICTA) 2023, has held in collaboration with the Faculty of Computer Science Amikom, Amikom Business Park (ABP) and also Praisindo have held the "Build Digital Economy" Hackathon competition on June 17 2023 for seminars, and June 23 – 24 2023 for the Hackathon competition. This event presents a variety a big figure in the formation of startups and the digital economy. Not missed, participants from various parts of Indonesia attended compete in this event. The important figures who attended this event were: Co-Founder & Director PT. Prasindo Boyke Bader Brilianto, ABP incubation manager, and also Secretary General of the Creative Digital Association Head Solusi 247 Jogja who has shared their experiences regarding the digital economy in a National Seminar with the theme “Build Digital Economy” which is also the opening of Hackathons.</p>
+      <img class="mt-5" src="https://gemilangmultiteknologi.vercel.app/image/innerpage/hackthon.jpg" alt="hackathon">  
+      <p class="mt-5">In today's global market competition, various companies and startups need quality digital talent to make it work compete in a competitive market. Through Hackathons, the circulation of digital talent can be accelerated and at the same time has the potential to generate ideas new information about IT and the digital economy that is really needed in business.</p>
+      <img class="mt-5" src="https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg" alt="beasiswa-prestasi">  
+      <p class="mt-5">This is our team from Gemilang Multi Teknologi take part in a hackthon competition. and develop a BUYR application is a payment application without queuing with Scanner Barcode. <br/> <br/> The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front of the participants others and the jury. Hose waiting for announcement Our decision is very happy to be called and chosen get 2nd place and we are very proud of our hard work and dedication.</p>
+      `,
+  },
+  {
+    id: 3,
+    thumbnail:
       "https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2020.08.15.png?updatedAt=1719925760545",
     name: "Development Node JS with Docker, Sample run and watch change Node JS Express with Docker",
     github: "https://github.com/ibrahimelgibran/Development-nodejs-docker",
@@ -245,7 +311,7 @@ export const notesList: NotesProps[] = [
       `,
   },
   {
-    id: 2,
+    id: 4,
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2015.34.24.png?updatedAt=1719477290606",
     name: "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
@@ -426,29 +492,7 @@ logging.level.org.springframework.security=TRACE
       `,
   },
   {
-    id: 3,
-    thumbnail:
-      "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
-    name: "2 Ranking Winner Building Digital Economy",
-    github: "",
-    preview:
-      "https://home.amikom.ac.id/2023/07/04/build-digital-economy-seminar-nasional-dan-hackathon-abp-x-praisindo-sukses-digelar/",
-    description:
-      "Award for COMPOTITION HACKATHON organized by ABP INCUBATOR and PT. PRAISINDO TECHNOLOGY.",
-    content: `
-      <h3 style="font-weight:bold; font-size:20px;">“Build Digital Economy”, ABP X National Seminar and Hackathon Praisindo Successfully Held.</h3>
-      <img class="mt-5" src="https://home.amikom.ac.id/media/2023/07/Picture1.jpg" alt="hackathon">  
-      <p class="mt-5">In a series of prestigious competitions at Amikom University Yogyakarta was named Amikom ICT Award (AMICTA) 2023, has held in collaboration with the Faculty of Computer Science Amikom, Amikom Business Park (ABP) and also Praisindo have held the "Build Digital Economy" Hackathon competition on June 17 2023 for seminars, and June 23 – 24 2023 for the Hackathon competition. This event presents a variety a big figure in the formation of startups and the digital economy. Not missed, participants from various parts of Indonesia attended compete in this event. The important figures who attended this event were: Co-Founder & Director PT. Prasindo Boyke Bader Brilianto, ABP incubation manager, and also Secretary General of the Creative Digital Association Head Solusi 247 Jogja who has shared their experiences regarding the digital economy in a National Seminar with the theme “Build Digital Economy” which is also the opening of Hackathons.</p>
-      <img class="mt-5" src="https://gemilangmultiteknologi.vercel.app/image/innerpage/hackthon.jpg" alt="hackathon">  
-      <p class="mt-5">In today's global market competition, various companies and startups need quality digital talent to make it work compete in a competitive market. Through Hackathons, the circulation of digital talent can be accelerated and at the same time has the potential to generate ideas new information about IT and the digital economy that is really needed in business.</p>
-      <img class="mt-5" src="https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg" alt="beasiswa-prestasi">  
-      <p class="mt-5">This is our team from Gemilang Multi Teknologi take part in a hackthon competition. and develop a BUYR application is a payment application without queuing with Scanner Barcode.
-
-The Tech Stack that we use is ReactJS and NodeJS. then we presented it in front of the participants others and the jury. Hose waiting for announcement Our decision is very happy to be called and chosen get 2nd place and we are very proud of our hard work and dedication.</p>
-      `,
-  },
-  {
-    id: 4,
+    id: 5,
     thumbnail: "https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg",
     name: "53 Amikom students receive Student Achievement Scholarships",
     github: "",
