@@ -492,7 +492,7 @@ logging.level.org.springframework.security=TRACE
       `,
   },
   {
-    id: "beasiswa-amikom",
+    id: "scholarships-amikom",
     thumbnail: "https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg",
     name: "53 Amikom students receive Student Achievement Scholarships",
     github: "",
