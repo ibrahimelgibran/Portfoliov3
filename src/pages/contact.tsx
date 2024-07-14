@@ -100,8 +100,11 @@
 
 import Layout from "@/components/layout";
 import { Heading } from "@/components/ui/typography";
+import { useTitle } from "@/hooks";
 
 export default function Contact() {
+  useTitle("Contact - El Gibran");
+
   return (
     <Layout>
       <Heading as="h1">Contact</Heading>
