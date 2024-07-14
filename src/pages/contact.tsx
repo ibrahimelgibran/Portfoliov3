@@ -103,7 +103,7 @@ import { Heading } from "@/components/ui/typography";
 import { useTitle } from "@/hooks";
 
 export default function Contact() {
-  useTitle("Contact - El Gibran");
+  useTitle("Contact - ElGibran");
 
   return (
     <Layout>
