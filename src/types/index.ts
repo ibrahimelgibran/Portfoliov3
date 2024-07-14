@@ -1,5 +1,5 @@
 type BaseProps = {
-  id: number;
+  id: string;
   name: string;
 };
 

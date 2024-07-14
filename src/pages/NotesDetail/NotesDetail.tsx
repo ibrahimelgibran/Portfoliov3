@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function BlogDetail() {
   const { id } = useParams<{ id: string }>();
-  const notesPost = notesList.find((post) => post.id === parseInt(id!));
+  const notesPost = notesList.find((post) => post.id === id);
 
   if (!notesPost) {
     return (

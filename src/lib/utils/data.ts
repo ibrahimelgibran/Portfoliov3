@@ -2,15 +2,15 @@ import { NotesProps, RoutesProps, StackProps, WorksProps } from "@/types";
 
 export const stack: StackProps[] = [
   {
-    id: 1,
+    id: "java",
     name: "Java",
   },
   {
-    id: 2,
+    id: "js",
     name: "Javascript",
   },
   {
-    id: 3,
+    id: "php",
     name: "PHP",
   },
 ];
@@ -60,7 +60,7 @@ export const photosList = [
 
 export const worksList: WorksProps[] = [
   {
-    id: 1,
+    id: "iegcode",
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/iegcode.png",
     name: "IEGCODE - WebApps",
     github: "https://github.com/ibrahimelgibran/iegcodev2",
@@ -69,7 +69,7 @@ export const worksList: WorksProps[] = [
       "Platform e-commerce personal who provides services your need.",
   },
   {
-    id: 2,
+    id: "ujian-online",
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-9.jpg&w=1920&q=75",
     name: "CBT Online - WebApps",
@@ -79,7 +79,7 @@ export const worksList: WorksProps[] = [
       "This is a CBT online SMK MUHAMMADIYAH GAMPING for students ESKAMUGA with own fiture complite.",
   },
   {
-    id: 3,
+    id: "ppdb-online",
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-2.png&w=1920&q=75",
     name: "PPDB Online - WebApps",
@@ -88,7 +88,7 @@ export const worksList: WorksProps[] = [
     description: "A Website Profiles and PPDB Online 2024-2025.",
   },
   {
-    id: 4,
+    id: "cms-eskamuga",
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-04.png&w=1920&q=75",
     name: "CMS School - WebApps",
@@ -97,7 +97,7 @@ export const worksList: WorksProps[] = [
     description: "Profiles School CMS (Content Manajement System) ESKAMUGA.",
   },
   {
-    id: 5,
+    id: "cici-ai",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-08%20at%2016.07.07.png?updatedAt=1717837637923",
     name: "Chat Ai Cici - WebApps",
@@ -107,7 +107,7 @@ export const worksList: WorksProps[] = [
       "Cici is a 2D AI assistant powered by the powerful large language model Gemini.",
   },
   {
-    id: 6,
+    id: "sotoijomonjali",
     thumbnail:
       "https://elgibran17.vercel.app/dist/img/portfolio/project-08.png",
     name: "Soto Ijo Monjali - WebApps",
@@ -117,7 +117,7 @@ export const worksList: WorksProps[] = [
       "CMS (Content Manajement System) creating site-wide food menu profiles and taking orders.",
   },
   {
-    id: 7,
+    id: "gmt-profile",
     thumbnail:
       "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-011.png&w=1920&q=75",
     name: "GMT - WebApps",
@@ -126,7 +126,7 @@ export const worksList: WorksProps[] = [
     description: "Company Profiles CMS (Content Manajement System) GMT.",
   },
   {
-    id: 8,
+    id: "cleanee",
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/cleanee.png",
     name: "Cleanee - WebApps",
     github: "https://github.com/ibrahimelgibran/Ci-CleaneeWebApp",
@@ -135,7 +135,7 @@ export const worksList: WorksProps[] = [
       "Cleanee is here to solve waste problems to integrated waste processing, Cleanee creates digitized and efficient waste processing for the community.",
   },
   {
-    id: 9,
+    id: "money-manajement",
     thumbnail:
       "https://elgibran17.vercel.app/dist/img/portfolio/mony-manajement.png",
     name: "Money Manajement - WebApps",
@@ -145,7 +145,7 @@ export const worksList: WorksProps[] = [
       "FinancialApps or Money Manajement. Project that I created using NextJS, TailwindCSS and Firebase.",
   },
   {
-    id: 10,
+    id: "pos-java",
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/pos.png",
     name: "Point Of Sale - DesktopApps",
     github: "https://github.com/ibrahimelgibran/POS_MENU",
@@ -154,7 +154,7 @@ export const worksList: WorksProps[] = [
       "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN, plugins Spingboot and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
   },
   {
-    id: 11,
+    id: "github-clone",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2023.07.16.png?updatedAt=1718640503465",
     name: "Github Portofolio - WebApps",
@@ -164,7 +164,7 @@ export const worksList: WorksProps[] = [
       "Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub, and show another page linking to each repo using nested routes.",
   },
   {
-    id: 12,
+    id: "editor-code",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2022.24.30.png?updatedAt=1718637981068",
     name: "Editor Code - WebApps",
@@ -177,7 +177,7 @@ export const worksList: WorksProps[] = [
 
 export const notesList: NotesProps[] = [
   {
-    id: 1,
+    id: "amcita",
     thumbnail:
       "https://ik.imagekit.io/elgibran/AMICTA/Screenshot%202024-07-14%20at%2019.14.15.png?updatedAt=1720959265089",
     name: "2 Ranking Winner AMICTA 2024 - Messenger Of Innovation Change",
@@ -223,7 +223,7 @@ export const notesList: NotesProps[] = [
     `,
   },
   {
-    id: 2,
+    id: "hackathon",
     thumbnail:
       "https://projectprofilebuyr.vercel.app/assets/juara2-17e25bee.png",
     name: "2 Ranking Winner HACKATHON 2023 - Building Digital Economy",
@@ -243,7 +243,7 @@ export const notesList: NotesProps[] = [
       `,
   },
   {
-    id: 3,
+    id: "development-nodejs-docker",
     thumbnail:
       "https://ik.imagekit.io/elgibran/run%20docker/Screenshot%202024-07-02%20at%2020.08.15.png?updatedAt=1719925760545",
     name: "Development Node JS with Docker, Sample run and watch change Node JS Express with Docker",
@@ -311,7 +311,7 @@ export const notesList: NotesProps[] = [
       `,
   },
   {
-    id: 4,
+    id: "oauth2-login-springboot",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-27%20at%2015.34.24.png?updatedAt=1719477290606",
     name: "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
@@ -492,7 +492,7 @@ logging.level.org.springframework.security=TRACE
       `,
   },
   {
-    id: 5,
+    id: "beasiswa-amikom",
     thumbnail: "https://elgibran17.vercel.app/dist/img/sertifikat/award.jpg",
     name: "53 Amikom students receive Student Achievement Scholarships",
     github: "",
@@ -522,19 +522,19 @@ logging.level.org.springframework.security=TRACE
 
 export const routesList: RoutesProps[] = [
   {
-    id: 1,
+    id: "1",
     name: "/works",
   },
   {
-    id: 2,
+    id: "2",
     name: "/photos",
   },
   {
-    id: 5,
+    id: "3",
     name: "/notes",
   },
   {
-    id: 4,
+    id: "4",
     name: "/contact",
   },
 ];
