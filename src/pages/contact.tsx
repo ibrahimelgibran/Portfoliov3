@@ -30,7 +30,7 @@ export default function Contact() {
       );
 
       setIsSuccessSendmessage(true);
-      formRef.current?.reset(); // Mengosongkan form setelah pesan berhasil dikirim
+      // formRef.current?.reset(); // Mengosongkan form setelah pesan berhasil dikirim
     } catch (err: any) {
       throw new Error("Failed to send message!");
     }
