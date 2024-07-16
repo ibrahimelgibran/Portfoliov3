@@ -21,7 +21,7 @@ export default function Contact() {
 
   async function sendmessage(): Promise<void> {
     try {
-      // check status send email
+      // check status email
       // console.log("EMAILJS_SERVICE_ID:", EMAILJS_SERVICE_ID);
       // console.log("EMAILJS_TEMPLATE_ID:", EMAILJS_TEMPLATE_ID);
       // console.log("EMAILJS_PUBLIC_KEY:", EMAILJS_PUBLIC_KEY);
