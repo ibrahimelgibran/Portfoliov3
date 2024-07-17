@@ -197,9 +197,9 @@ export default function Home() {
         <div className="space-y-1">
           <Paragraph>
             • I create stunning website for your business, Intermediate
-            experienced in web design and development. <br /> • Platform
-            e-commerce personal who provides services your need. there are some
-            type very product pada e-commerce 🛒.
+            experienced in web design and development. <br /> • Platform for
+            home software and an e-commerce website for your business that
+            caters to your needs 🛒.
             <br /> • <b>Programming Languages: </b> PHP, Codeigniter and MYSQL.
           </Paragraph>
         </div>
