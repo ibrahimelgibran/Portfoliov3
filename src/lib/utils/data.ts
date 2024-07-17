@@ -66,7 +66,7 @@ export const worksList: WorksProps[] = [
     github: "https://github.com/ibrahimelgibran/iegcodev2",
     preview: "https://www.iegcode.my.id/",
     description:
-      "Platform for home software and an e-commerce website for your business that caters to your needs 🛒.",
+      "Platform for software home and an e-commerce website for your business that caters to your needs 🛒.",
   },
   {
     id: "ujian-online",
