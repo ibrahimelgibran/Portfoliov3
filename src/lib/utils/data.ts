@@ -66,12 +66,12 @@ export const worksList: WorksProps[] = [
     github: "https://github.com/ibrahimelgibran/iegcodev2",
     preview: "https://www.iegcode.com/",
     description:
-      "Platform for software home and an e-commerce website for your business that caters to your needs 🛒.",
+      "Platform for software house and an e-commerce website for your business that caters to your needs 🛒.",
   },
   {
     id: "ujian-online",
     thumbnail:
-      "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-9.jpg&w=1920&q=75",
+      "https://elgibran17.vercel.app/dist/img/portfolio/project-15.png",
     name: "CBT Online - WebApps",
     github: "https://github.com/ibrahimelgibran/IegCBT",
     preview: "https://ujianonline.smksmuhammadiyahgamping.sch.id/",
@@ -81,7 +81,7 @@ export const worksList: WorksProps[] = [
   {
     id: "ppdb-online",
     thumbnail:
-      "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-2.png&w=1920&q=75",
+      "https://elgibran17.vercel.app/dist/img/portfolio/project-06.png",
     name: "PPDB Online - WebApps",
     github: "https://github.com/ibrahimelgibran/ci-Eskamuga",
     preview: "https://ppdbv2.smksmuhammadiyahgamping.sch.id/",
@@ -90,7 +90,7 @@ export const worksList: WorksProps[] = [
   {
     id: "cms-eskamuga",
     thumbnail:
-      "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-04.png&w=1920&q=75",
+      "https://elgibran17.vercel.app/dist/img/portfolio/project-09.png",
     name: "CMS School - WebApps",
     github: "https://github.com/ibrahimelgibran/Final-Project-CMS",
     preview: "https://info-jadwal-sholat.vercel.app",
@@ -119,7 +119,7 @@ export const worksList: WorksProps[] = [
   {
     id: "gmt-profile",
     thumbnail:
-      "https://www.iegcodestore.my.id/_next/image?url=%2Fimg%2Fss-project%2Fproject-011.png&w=1920&q=75",
+      "https://elgibran17.vercel.app/dist/img/portfolio/project-19.png",
     name: "GMT - WebApps",
     github: "https://github.com/ibrahimelgibran/GemilangMultiTeknologi",
     preview: "https://www.gemilangmultiteknologi.my.id/",
