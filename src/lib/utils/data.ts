@@ -64,7 +64,7 @@ export const worksList: WorksProps[] = [
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/iegcode.png",
     name: "IEGCODE - WebApps",
     github: "https://github.com/ibrahimelgibran/iegcodev2",
-    preview: "https://www.iegcode.my.id/",
+    preview: "https://www.iegcode.com/",
     description:
       "Platform for software home and an e-commerce website for your business that caters to your needs 🛒.",
   },
