@@ -218,6 +218,8 @@ export const notesList: NotesProps[] = [
       </br>
       <p>Furthermore, when the announcement continued in the digital business category, there were 6 products that received a warm welcome on the cinema screens there. I prayed that I would win and I didn't expect that when I got 2nd place, the product I created was successful in becoming 2nd place. I really felt proud and happy that day, I was very moved because my hard work in developing the application paid off by getting 2nd place in the championship.</p>
       <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/Screenshot_2024-07-14_at_20.26.39-transformed.png?updatedAt=1720963680962 alt="award2-amcita">
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/20240720111201.jpg?updatedAt=1721707241970 alt="award2-amcita">
+      <img class="mt-3" src=https://ik.imagekit.io/elgibran/AMICTA/20240720105731.jpg?updatedAt=1721707241901 alt="award2-amcita">
       <p class="mt-3"><strong>Conclusion of the story:</strong></p>
       <p class="mt-2">Nothing is possible. Anyone who is serious will succeed.</p>
     `,
