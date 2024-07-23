@@ -183,7 +183,7 @@ export const notesList: NotesProps[] = [
     name: "2 Ranking Winner AMICTA 2024 - Messenger Of Innovation Change",
     github: "",
     preview:
-      "https://home.amikom.ac.id/2024/07/12/inagurasi-kompetisi-ict-amicta-2024/",
+      "https://d3ti.amikom.ac.id/artikel/selamat-kepada-juara-amicta-2024/",
     description:
       "This award competition was held to increase the culture of competitive achievement for the Indonesian people, especially the academic community at Amikom University Yogyakarta at the Faculty of Computer Science (FIK).",
     content: `
