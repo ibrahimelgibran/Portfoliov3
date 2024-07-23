@@ -107,6 +107,16 @@ export const worksList: WorksProps[] = [
       "Cici is a 2D AI assistant powered by the powerful large language model Gemini.",
   },
   {
+    id: "examskills",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2011.11.14.png?updatedAt=1721707894739",
+    name: "ExamSkills - WebApps",
+    github: "https://github.com/ibrahimelgibran/ExamSkills/",
+    preview: "https://examskills.iegcode.com/",
+    description:
+      "Online exam platform to improve your skills by taking the given tests.",
+  },
+  {
     id: "sotoijomonjali",
     thumbnail:
       "https://elgibran17.vercel.app/dist/img/portfolio/project-08.png",
