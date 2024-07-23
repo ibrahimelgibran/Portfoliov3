@@ -127,6 +127,16 @@ export const worksList: WorksProps[] = [
       "CMS (Content Manajement System) creating site-wide food menu profiles and taking orders.",
   },
   {
+    id: "link-landingpage",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.54.12.png?updatedAt=1721739260035",
+    name: "Link Landing Page - WebApps",
+    github: "https://github.com/ibrahimelgibran/Link-Sosial-Landingpage",
+    preview: "https://www.elgibran.my.id/",
+    description:
+      "CMS (Content Manajement System) creating site-wide food menu profiles and taking orders.",
+  },
+  {
     id: "gmt-profile",
     thumbnail:
       "https://elgibran17.vercel.app/dist/img/portfolio/project-19.png",
@@ -164,6 +174,16 @@ export const worksList: WorksProps[] = [
       "Create POS Manajement use stack JAVA JDK21 with MYSQL, build tool MAVEN, plugins Spingboot and Framework Library Lombok MySQL Connector/J FlatLaf, AbsoluteLayout, JCalendar, Apache Derby, JasperReports, SwingX.",
   },
   {
+    id: "inventory-manajement",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.43.53.png?updatedAt=1721738644714",
+    name: "Inventory Manajement - DesktopApps",
+    github: "https://github.com/ibrahimelgibran/ManajementSystemCleanee",
+    preview: "https://github.com/ibrahimelgibran/ManajementSystemCleanee",
+    description:
+      "This is an Management System built in the form of a GUI desktop application developed in Java using MySQL as its database. The GUI was designed using Swing and the database connectivity was managed using JDBC API.",
+  },
+  {
     id: "github-clone",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2023.07.16.png?updatedAt=1718640503465",
@@ -174,6 +194,16 @@ export const worksList: WorksProps[] = [
       "Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub, and show another page linking to each repo using nested routes.",
   },
   {
+    id: "e-learning-online",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.49.43.png?updatedAt=1721738993220",
+    name: "Platform E-Learning - WebApps",
+    github: "https://github.com/ibrahimelgibran/Iegwebcademy",
+    preview: "https://iegwebcademy.vercel.app/",
+    description:
+      "An online learning platform that provides various courses around video-based web programming.",
+  },
+  {
     id: "editor-code",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2022.24.30.png?updatedAt=1718637981068",
@@ -182,6 +212,16 @@ export const worksList: WorksProps[] = [
     preview: "https://codeapps.vercel.app",
     description:
       "An online code editor which supports HTML, CSS, and Javascript Development. A Markdown editor for generating readme.",
+  },
+  {
+    id: "romantic-girls",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.59.52.png?updatedAt=1721739613170",
+    name: "Romantic Girl - WebApps",
+    github: "https://github.com/ibrahimelgibran/RomanticGirl",
+    preview: "https://myloveromantic.vercel.app/",
+    description:
+      "Result from my self. create romantic for my girl friends, made with love by me.",
   },
 ];
 
