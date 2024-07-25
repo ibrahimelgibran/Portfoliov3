@@ -31,16 +31,17 @@ export default function Home() {
           <Heading as="h1">こんにちは !</Heading>
         </div>
         <Paragraph>
-          Hello everyone! I am Ibrahim El Gibran, with more than 10+ Month Of
-          Experience in a Back End Developer. Download or view my{" "}
+          Hello everyone! I am Ibrahim El Gibran. I have over 10+ months of
+          experience as a Backend Developer. Download or view my{" "}
           <b>
             <a href="https://drive.google.com/file/d/1p6yqSrLsh35Ze2DUqRDMGm5n5doYAvi0/view">
               (CV.PERSONAL)
             </a>
           </b>
-          . I am a intermediate experienced and I hope with this I can always
-          learning something new to be able to invent digital applications that
-          can help many people in the future. Can work alone or in a team.{" "}
+          . I consider myself at an intermediate level and am always eager to
+          learn something new. My goal is to invent digital applications that
+          can help many people in the future. I am capable of working both
+          independently and as part of a team.{" "}
           <b>
             <i>Keep it simple</i>
           </b>
@@ -101,7 +102,7 @@ export default function Home() {
           </span>
         </div>
         <div className="space-y-1" style={{ marginTop: "-1px" }}>
-          <Paragraph>• Informatics Engineering</Paragraph>
+          <Paragraph>• Motorcycle Business Engineering</Paragraph>
         </div>
         <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">Muhammadiyah Gamping Vocational School</Heading>
