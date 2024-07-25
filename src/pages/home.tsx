@@ -219,8 +219,7 @@ export default function Home() {
           <Paragraph>
             • Digital waste processing platform and development of object
             detection for object selection with Artificial Intelligence. <br />{" "}
-            <br /> • <b>Programming Languages WebApps: </b> PHP, Codeigniter and
-            MYSQL.
+            • <b>Programming Languages WebApps: </b> PHP, Codeigniter and MYSQL.
             <br /> • <b>Programming Languages Detection Object Ai : </b> React
             JS and TensorFlow JS
           </Paragraph>
