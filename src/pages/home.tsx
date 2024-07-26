@@ -102,7 +102,7 @@ export default function Home() {
           </span>
         </div>
         <div className="space-y-1" style={{ marginTop: "-1px" }}>
-          <Paragraph>• Motorcycle Business Engineering</Paragraph>
+          <Paragraph>• Informatics Engineering</Paragraph>
         </div>
         <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">Muhammadiyah Gamping Vocational School</Heading>
@@ -111,7 +111,7 @@ export default function Home() {
           </span>
         </div>
         <div className="space-y-1" style={{ marginTop: "-1px" }}>
-          <Paragraph> • Software Engineering</Paragraph>
+          <Paragraph> • Motorcycle Business Engineering</Paragraph>
         </div>
         <hr />
         <div className="flex space-x-2 items-center w-fit">
