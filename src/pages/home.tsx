@@ -146,8 +146,8 @@ export default function Home() {
         </div>
         <div className="space-y-1">
           <Paragraph>
-            • 2 Ranking Winner Compotition Hackathon Building Digital Economy.{" "}
-            <br />• Digital business category Development of "Cleanee
+            • 2 Ranking Winner Compotition AMICTA Messenger Of Innovation
+            Change. <br />• Digital business category Development of "Cleanee
             Application for Digital Waste Processing and Development of Object
             Detection with AI for object sorting" organized by Amikom University
             Yogyakarta, on June 7, 2024 to July 12, 2024. <br />• View Document{" "}
