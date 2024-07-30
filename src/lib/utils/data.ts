@@ -71,7 +71,7 @@ export const worksList: WorksProps[] = [
   {
     id: "ujian-online",
     thumbnail:
-      "https://elgibran17.vercel.app/dist/img/portfolio/project-15.png",
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-30%20at%2016.23.07.png?updatedAt=1722331407390",
     name: "CBT Online - WebApps",
     github: "https://github.com/ibrahimelgibran/IegCBT",
     preview: "https://ujianonline.smksmuhammadiyahgamping.sch.id/",
@@ -90,7 +90,7 @@ export const worksList: WorksProps[] = [
   {
     id: "cms-eskamuga",
     thumbnail:
-      "https://elgibran17.vercel.app/dist/img/portfolio/project-09.png",
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-30%20at%2016.25.01.png?updatedAt=1722331518928",
     name: "CMS School - WebApps",
     github: "https://github.com/ibrahimelgibran/Final-Project-CMS",
     preview: "https://info-jadwal-sholat.vercel.app",
