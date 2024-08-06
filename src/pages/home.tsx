@@ -31,17 +31,17 @@ export default function Home() {
           <Heading as="h1">こんにちは !</Heading>
         </div>
         <Paragraph>
-          Hello everyone! I am Ibrahim El Gibran. I have over 10+ months of
-          experience as a Backend Developer. Download or view my{" "}
+          Hello everyone! I am Ibrahim El Gibran, a Backend Developer. Download
+          or view my{" "}
           <b>
             <a href="https://drive.google.com/file/d/1p6yqSrLsh35Ze2DUqRDMGm5n5doYAvi0/view">
               (CV.PERSONAL)
             </a>
           </b>
-          . I consider myself at an intermediate level and am always eager to
-          learn something new. My goal is to invent digital applications that
-          can help many people in the future. I am capable of working both
-          independently and as part of a team.{" "}
+          . Experienced with intermediate level knowledge of APIs,
+          microservices, monoliths, and containers, using ORM tools such as
+          Hibernate, and proficient with Java Spring Boot. Always eager to learn
+          something new and able to work independently or as part of a team.{" "}
           <b>
             <i>Keep it simple</i>
           </b>
