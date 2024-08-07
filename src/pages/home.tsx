@@ -138,7 +138,7 @@ export default function Home() {
         </div>
         <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">
-            2 Ranking Winner AMICTA 2024 - "Messenger Of Innovation Change"
+            2 Ranking Winner ITC AMICTA 2024 - "Messenger Of Innovation Change"
           </Heading>
           <span className="text-sm ml-auto">
             <b>📌 Amikom Yogyakarta University</b>
