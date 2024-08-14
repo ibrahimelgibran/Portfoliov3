@@ -194,6 +194,16 @@ export const worksList: WorksProps[] = [
       "Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub, and show another page linking to each repo using nested routes.",
   },
   {
+    id: "IegMood",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-08-14%20at%2019.33.03.png?updatedAt=1723638813847",
+    name: "IegMood - WebApps",
+    github: "https://github.com/ibrahimelgibran/iegcode-psikiater",
+    preview: "https://iegmood.vercel.app/",
+    description:
+      "depression tracking that helps psychiatrists monitor mental health. After completing a mental health test, you will automatically receive personalized solutions, consultation, or feedback via AI models.",
+  },
+  {
     id: "e-learning-online",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.49.43.png?updatedAt=1721738993220",
