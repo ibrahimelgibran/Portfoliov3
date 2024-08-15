@@ -201,7 +201,7 @@ export const worksList: WorksProps[] = [
     github: "https://github.com/ibrahimelgibran/iegcode-psikiater",
     preview: "https://iegmood.vercel.app/",
     description:
-      "depression tracking that helps psychiatrists monitor mental health. After completing a mental health test, you will automatically receive personalized solutions, consultation, or feedback via AI models.",
+      "Depression tracking that helps psychiatrists monitor mental health. After completing a mental health test, you will automatically receive personalized solutions, consultation, or feedback via AI models.",
   },
   {
     id: "e-learning-online",
