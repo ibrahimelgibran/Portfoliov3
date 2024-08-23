@@ -203,26 +203,26 @@ export const worksList: WorksProps[] = [
     description:
       "Depression tracking that helps psychiatrists monitor mental health. After completing a mental health test, you will automatically receive personalized solutions, consultation, or feedback via AI models.",
   },
-  {
-    id: "e-learning-online",
-    thumbnail:
-      "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.49.43.png?updatedAt=1721738993220",
-    name: "Platform E-Learning - WebApps",
-    github: "https://github.com/ibrahimelgibran/Iegwebcademy",
-    preview: "https://iegwebcademy.vercel.app/",
-    description:
-      "An online learning platform that provides various courses around video-based web programming.",
-  },
-  {
-    id: "editor-code",
-    thumbnail:
-      "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2022.24.30.png?updatedAt=1718637981068",
-    name: "Editor Code - WebApps",
-    github: "https://github.com/ibrahimelgibran/TextEditor-CustomeREADME.md",
-    preview: "https://codeapps.vercel.app",
-    description:
-      "An online code editor which supports HTML, CSS, and Javascript Development. A Markdown editor for generating readme.",
-  },
+  // {
+  //   id: "e-learning-online",
+  //   thumbnail:
+  //     "https://ik.imagekit.io/elgibran/Screenshot%202024-07-23%20at%2019.49.43.png?updatedAt=1721738993220",
+  //   name: "Platform E-Learning - WebApps",
+  //   github: "https://github.com/ibrahimelgibran/Iegwebcademy",
+  //   preview: "https://iegwebcademy.vercel.app/",
+  //   description:
+  //     "An online learning platform that provides various courses around video-based web programming.",
+  // },
+  // {
+  //   id: "editor-code",
+  //   thumbnail:
+  //     "https://ik.imagekit.io/elgibran/Screenshot%202024-06-17%20at%2022.24.30.png?updatedAt=1718637981068",
+  //   name: "Editor Code - WebApps",
+  //   github: "https://github.com/ibrahimelgibran/TextEditor-CustomeREADME.md",
+  //   preview: "https://codeapps.vercel.app",
+  //   description:
+  //     "An online code editor which supports HTML, CSS, and Javascript Development. A Markdown editor for generating readme.",
+  // },
   {
     id: "romantic-girls",
     thumbnail:
