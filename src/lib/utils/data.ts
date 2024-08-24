@@ -137,14 +137,16 @@ export const worksList: WorksProps[] = [
       "CMS (Content Manajement System) creating site-wide food menu profiles and taking orders.",
   },
   {
-    id: "gmt-profile",
+    id: "IegMood",
     thumbnail:
-      "https://elgibran17.vercel.app/dist/img/portfolio/project-19.png",
-    name: "GMT - WebApps",
-    github: "https://github.com/ibrahimelgibran/GemilangMultiTeknologi",
-    preview: "https://www.gemilangmultiteknologi.my.id/",
-    description: "Company Profiles CMS (Content Manajement System) GMT.",
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-08-14%20at%2019.33.03.png?updatedAt=1723638813847",
+    name: "IegMood - WebApps",
+    github: "https://github.com/ibrahimelgibran/iegcode-psikiater",
+    preview: "https://iegmood.vercel.app/",
+    description:
+      "Depression tracking that helps psychiatrists monitor mental health. After completing a mental health test, you will automatically receive personalized solutions, consultation, or feedback via AI models.",
   },
+
   {
     id: "cleanee",
     thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/cleanee.png",
@@ -194,14 +196,13 @@ export const worksList: WorksProps[] = [
       "Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub, and show another page linking to each repo using nested routes.",
   },
   {
-    id: "IegMood",
+    id: "gmt-profile",
     thumbnail:
-      "https://ik.imagekit.io/elgibran/Screenshot%202024-08-14%20at%2019.33.03.png?updatedAt=1723638813847",
-    name: "IegMood - WebApps",
-    github: "https://github.com/ibrahimelgibran/iegcode-psikiater",
-    preview: "https://iegmood.vercel.app/",
-    description:
-      "Depression tracking that helps psychiatrists monitor mental health. After completing a mental health test, you will automatically receive personalized solutions, consultation, or feedback via AI models.",
+      "https://elgibran17.vercel.app/dist/img/portfolio/project-19.png",
+    name: "GMT - WebApps",
+    github: "https://github.com/ibrahimelgibran/GemilangMultiTeknologi",
+    preview: "https://www.gemilangmultiteknologi.my.id/",
+    description: "Company Profiles CMS (Content Manajement System) GMT.",
   },
   // {
   //   id: "e-learning-online",
