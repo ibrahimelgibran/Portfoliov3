@@ -162,6 +162,32 @@ export default function Home() {
 
       <div className="my-6 space-y-6">
         <Heading as="h1">Experiences</Heading>
+
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">PT Javan Cipta Solusi</Heading>
+          <span className="text-sm ml-auto">
+            <b>- Full Time / Internship</b>
+          </span>
+        </div>
+        <Paragraph className="font-semibold mt-0.5 flex items-center">
+          <span className="mr-20">Backend Developer Java Spring Boot</span>
+          <span className="text-sm ml-auto">Sep 2024 – Now</span>
+        </Paragraph>
+        <div className="space-y-1">
+          <Paragraph>
+            • Implementasi unit testing pengembangan backend dan pemanfaatan
+            pendukung dengan BPMN & Camunda. <br /> • Manajement proyek dengan
+            portal AWS apps, PostgreSQL sebagai basis data, Apidog sebagai
+            testing tools, Gitlab untuk kolaborasi tim, serta taiga untuk
+            manajement progres kerja. <br /> • Mempelajari library tools PT
+            Javan yaitu AlurKerja, sambil implementasi project LMS XL Tower
+            Dismantle.
+            <br /> • <b>Programming Languages: </b> Java, Spring Boot and
+            PostgreSQL.
+          </Paragraph>
+        </div>
+        <hr />
+
         <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">Smk Muhammadiyah Gamping</Heading>
           <span className="text-sm ml-auto">

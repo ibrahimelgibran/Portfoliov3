@@ -16,9 +16,16 @@ export default function Header() {
       )}
     >
       <nav className="flex justify-between max-w-xl items-center w-full">
-        <Link to="/">
+        <Link to="/" className="flex items-center">
           <Paragraph className="font-bold">elgibran.dev</Paragraph>
+          {/* <img
+            src="https://ik.imagekit.io/elgibran/verivikasi.png?updatedAt=1725066008987"
+            alt="verifikasi"
+            width={15}
+            className="ml-1"
+          /> */}
         </Link>
+
         <div className="flex justify-center items-center space-x-5">
           <div className="justify-center hidden sm:flex items-center space-x-5">
             {routesList.map((item) => (
