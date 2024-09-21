@@ -88,7 +88,8 @@ export default function Home() {
             <b>Tools:</b> Intellij IDEA, Visual Studio Code.
           </Paragraph>
           <Paragraph>
-            <b>Others:</b> MYSQL, MongoDB, Docker, Postman, Firebase, Supabase.
+            <b>Others:</b> PostgreSQL, MYSQL, MongoDB, Docker, Postman,
+            Firebase, Supabase, Camunda.
           </Paragraph>
         </div>
       </div>
@@ -175,15 +176,36 @@ export default function Home() {
         </Paragraph>
         <div className="space-y-1">
           <Paragraph>
-            • Implementasi unit testing pengembangan backend dan pemanfaatan
-            pendukung dengan BPMN & Camunda. <br /> • Manajement proyek dengan
-            portal AWS apps, PostgreSQL sebagai basis data, Apidog sebagai
-            testing tools, Gitlab untuk kolaborasi tim, serta taiga untuk
-            manajement progres kerja. <br /> • Mempelajari library tools PT
-            Javan yaitu AlurKerja, sambil implementasi project LMS XL Tower
-            Dismantle.
-            <br /> • <b>Programming Languages: </b> Java, Spring Boot and
-            PostgreSQL.
+            • Implementation unit testing development backend and utilization
+            supprot with BPMN & Camunda. <br /> • Manajement project with portal
+            AWS apps, PostgreSQL as basis data, Apidog as testing tools, Gitlab
+            for collaboration team, as does taiga for work manajement progress.{" "}
+            <br /> • Learn library tools from PT Javan this is AlurKerja and
+            implementaion project LMS XL Tower Dismantle.
+            <br /> • <b>Programming Languages & Technology Used: </b> Java,
+            Spring Boot, PostgreSQL and BPMN & Camunda.
+          </Paragraph>
+        </div>
+        <hr />
+
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">IEGCODE</Heading>
+          <span className="text-sm ml-auto">
+            <b>- Full Time</b>
+          </span>
+        </div>
+        <Paragraph className="font-semibold mt-0.5 flex items-center">
+          <span className="mr-20">Full Stack Developer</span>
+          <span className="text-sm ml-auto">Jan 2024 – Now</span>
+        </Paragraph>
+        <div className="space-y-1">
+          <Paragraph>
+            • I create stunning website for your business, Intermediate
+            experienced in web design and development. <br /> • Platform for
+            software house and an e-commerce website for your business that
+            caters to your needs 🛒.
+            <br /> • <b>Programming Languages & Technology Used: </b> PHP,
+            Codeigniter and MYSQL.
           </Paragraph>
         </div>
         <hr />
@@ -206,33 +228,13 @@ export default function Home() {
             search filters and form validation. <br /> • Create WebApps CBT or
             Online Exams Feature, Dashboard for teachers, students, employees.
             and filter token examp.
-            <br /> • <b>Programming Languages: </b> PHP, Codeigniter and MYSQL.
+            <br /> • <b>Programming Languages & Technology Used: </b> PHP,
+            Codeigniter and MYSQL.
           </Paragraph>
         </div>
         <hr />
 
-        <div className="flex space-x-2 items-center w-fit">
-          <Heading as="h3">IEGCODE</Heading>
-          <span className="text-sm ml-auto">
-            <b>- Full Time</b>
-          </span>
-        </div>
-        <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Full Stack Developer</span>
-          <span className="text-sm ml-auto">Jan 2024 – Now</span>
-        </Paragraph>
-        <div className="space-y-1">
-          <Paragraph>
-            • I create stunning website for your business, Intermediate
-            experienced in web design and development. <br /> • Platform for
-            software house and an e-commerce website for your business that
-            caters to your needs 🛒.
-            <br /> • <b>Programming Languages: </b> PHP, Codeigniter and MYSQL.
-          </Paragraph>
-        </div>
-        <hr />
-
-        <div className="flex space-x-2 items-center w-fit">
+        {/* <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">Cleanee</Heading>
           <span className="text-sm ml-auto">
             <b>- Full Time</b>
@@ -247,8 +249,8 @@ export default function Home() {
             • Digital waste processing platform and development of object
             detection for object selection with Artificial Intelligence. <br />{" "}
             • <b>Programming Languages WebApps: </b> PHP, Codeigniter and MYSQL.
-            <br /> • <b>Programming Languages Detection Object Ai : </b> React
-            JS and TensorFlow JS
+            <br /> • <b>Programming Languages dan Technology Used: </b> React JS
+            and TensorFlow JS
           </Paragraph>
         </div>
         <hr />
@@ -308,7 +310,7 @@ export default function Home() {
             product that has a QR Code.
             <br /> • <b>Programming Languages: </b> Express JS and Node JS.
           </Paragraph>
-        </div>
+        </div> */}
       </div>
       <br />
 
