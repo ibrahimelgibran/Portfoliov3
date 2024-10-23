@@ -61,10 +61,20 @@ export const photosList = [
 export const worksList: WorksProps[] = [
   {
     id: "iegcode",
-    thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/iegcode.png",
-    name: "IEGCODE - WebApps",
-    github: "https://github.com/ibrahimelgibran/iegcodev2",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-10-23%20at%2016.26.26.png?updatedAt=1729675595897",
+    name: "IEGCODE - WebApps Versi 3.0",
+    github: "https://www.iegcode.com/",
     preview: "https://www.iegcode.com/",
+    description:
+      "Update Feature Complate in Platform for software house and an e-commerce website for your business that caters to your needs 🛒.",
+  },
+  {
+    id: "iegcode",
+    thumbnail: "https://elgibran17.vercel.app/dist/img/portfolio/iegcode.png",
+    name: "IEGCODE - WebApps Versi 2.0",
+    github: "https://github.com/ibrahimelgibran/iegcodev2",
+    preview: "https://github.com/ibrahimelgibran/iegcodev2",
     description:
       "Platform for software house and an e-commerce website for your business that caters to your needs 🛒.",
   },
@@ -93,8 +103,18 @@ export const worksList: WorksProps[] = [
       "https://ik.imagekit.io/elgibran/Screenshot%202024-07-30%20at%2016.25.01.png?updatedAt=1722331518928",
     name: "CMS School - WebApps",
     github: "https://github.com/ibrahimelgibran/Final-Project-CMS",
-    preview: "https://info-jadwal-sholat.vercel.app",
+    preview: "https://smksmuhammadiyahgamping.sch.id/",
     description: "Profiles School CMS (Content Manajement System) ESKAMUGA.",
+  },
+  {
+    id: "ieglink",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202024-10-23%20at%2016.30.35.png?updatedAt=1729675843945",
+    name: "IEGLINK - WebApps",
+    github: "https://ieglink.my.id/",
+    preview: "https://ieglink.my.id/",
+    description:
+      "Replace complicated URLs with short links meant to get more clicks.",
   },
   {
     id: "cici-ai",

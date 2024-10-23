@@ -203,8 +203,8 @@ export default function Home() {
             • I create stunning website for your business, Intermediate
             experienced in web design and development. <br /> • Platform for
             software house and an e-commerce website for your business that
-            caters to your needs 🛒.
-            <br /> • <b>Programming Languages & Technology Used: </b> PHP,
+            caters to your needs 🛒. <br /> • IEGLINK is a new product from iegcode which is an open source URL shortener or short link and features such as custom & barcode links, generating automatic links in unique and unlimited shapes.
+            <br /> • <b>Programming Languages & Technology Used: </b> PHP, Laravel,
             Codeigniter and MYSQL.
           </Paragraph>
         </div>
@@ -227,7 +227,7 @@ export default function Home() {
             dashboards for teachers, students, employees and many more such as
             search filters and form validation. <br /> • Create WebApps CBT or
             Online Exams Feature, Dashboard for teachers, students, employees.
-            and filter token examp.
+            and filter token examp. <br /> • Web App Voting elections are held.
             <br /> • <b>Programming Languages & Technology Used: </b> PHP,
             Codeigniter and MYSQL.
           </Paragraph>
