@@ -21,7 +21,7 @@ export default function Home() {
     <Layout>
       <div className="space-y-6">
         {" "}
-        {/* pattern = for background plaid */}
+        {/* pattern = for background plaisd */}
         <div className="flex justify-center items-center space-x-3 w-fit">
           <LightboxImage
             src="https://avatars.githubusercontent.com/u/129604094?v=4"
