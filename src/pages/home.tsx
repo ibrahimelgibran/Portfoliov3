@@ -79,10 +79,10 @@ export default function Home() {
         <Heading as="h1">Skills</Heading>
         <div className="space-y-1">
           <Paragraph>
-            <b>Programming Languages: </b>Java, PHP.
+            <b>Programming Languages: </b>Java, JavaScript and PHP.
           </Paragraph>
           <Paragraph>
-            <b>Backend:</b> Spring Boot, Laravel.
+            <b>Backend:</b> Spring Boot, NodeJS and Laravel.
           </Paragraph>
           <Paragraph>
             <b>Tools:</b> Intellij IDEA, Visual Studio Code.
