@@ -79,17 +79,17 @@ export default function Home() {
         <Heading as="h1">Skills</Heading>
         <div className="space-y-1">
           <Paragraph>
-            <b>Programming Languages: </b>Java, Javascript and PHP.
+            <b>Programming Languages: </b>Java, PHP.
           </Paragraph>
           <Paragraph>
-            <b>Backend:</b> Spring Boot, Node JS, Laravel.
+            <b>Backend:</b> Spring Boot, Laravel.
           </Paragraph>
           <Paragraph>
             <b>Tools:</b> Intellij IDEA, Visual Studio Code.
           </Paragraph>
           <Paragraph>
-            <b>Others:</b> PostgreSQL, MYSQL, MongoDB, Docker, Postman,
-            Firebase, Supabase, Camunda.
+            <b>Others:</b> PostgreSQL, MYSQL, MongoDB, Docker, Postman, APIDog
+            Firebase, Supabase, BPMN & Camunda.
           </Paragraph>
         </div>
       </div>
