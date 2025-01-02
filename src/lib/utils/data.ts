@@ -117,6 +117,26 @@ export const worksList: WorksProps[] = [
       "Replace complicated URLs with short links meant to get more clicks.",
   },
   {
+    id: "padukuhannandan",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202025-01-02%20at%2009.20.56.png?updatedAt=1735784467699",
+    name: "Padukuhan Nandan - WebApps",
+    github: "https://github.com/ibrahimelgibran/PadukuhanNanda/",
+    preview: "https://padukuhannandan.my.id/",
+    description:
+      "Information About Us Content Manajement System For Padukuhan Nandan.",
+  },
+  {
+    id: "pegasusjogja",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202025-01-02%20at%2009.18.28.png?updatedAt=1735784334046",
+    name: "Pegasus Jogja - WebApps",
+    github: "https://github.com/ibrahimelgibran/CMS-ABDIMAS",
+    preview: "https://www.pegasusjogja.org/",
+    description:
+      "Content Manajement System, Presensi, Information System and Bill History Transaction for user, Gallery Detail.",
+  },
+  {
     id: "cici-ai",
     thumbnail:
       "https://ik.imagekit.io/elgibran/Screenshot%202024-06-08%20at%2016.07.07.png?updatedAt=1717837637923",
@@ -135,6 +155,16 @@ export const worksList: WorksProps[] = [
     preview: "https://examskills.iegcode.com/",
     description:
       "Online exam platform to improve your skills by taking the given tests.",
+  },
+  {
+    id: "soimv2",
+    thumbnail:
+      "https://ik.imagekit.io/elgibran/Screenshot%202025-01-02%20at%2009.24.38.png?updatedAt=1735784694070",
+    name: "Soim Official - WebApps",
+    github: "https://github.com/ibrahimelgibran/CMS-SOIM/",
+    preview: "https://sotoijomonjali.my.id/",
+    description:
+      "CMS Content Manajement System v2 Soto Ijo Monjali, Add Feature: Menu, Blog or Articel, Ads, Contact Person dll.",
   },
   {
     id: "sotoijomonjali",

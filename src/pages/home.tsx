@@ -165,30 +165,6 @@ export default function Home() {
         <Heading as="h1">Experiences</Heading>
 
         <div className="flex space-x-2 items-center w-fit">
-          <Heading as="h3">PT Javan Cipta Solusi</Heading>
-          <span className="text-sm ml-auto">
-            <b>- Full Time / Internship</b>
-          </span>
-        </div>
-        <Paragraph className="font-semibold mt-0.5 flex items-center">
-          <span className="mr-20">Backend Developer Java Spring Boot</span>
-          <span className="text-sm ml-auto">Sep 2024 – Now</span>
-        </Paragraph>
-        <div className="space-y-1">
-          <Paragraph>
-            • Implementation unit testing development backend and utilization
-            supprot with BPMN & Camunda. <br /> • Manajement project with portal
-            AWS apps, PostgreSQL as basis data, Apidog as testing tools, Gitlab
-            for collaboration team, as does taiga for work manajement progress.{" "}
-            <br /> • Learn library tools from PT Javan this is AlurKerja and
-            implementaion project LMS XL Tower Dismantle.
-            <br /> • <b>Programming Languages & Technology Used: </b> Java,
-            Spring Boot, PostgreSQL and BPMN & Camunda.
-          </Paragraph>
-        </div>
-        <hr />
-
-        <div className="flex space-x-2 items-center w-fit">
           <Heading as="h3">IEGCODE</Heading>
           <span className="text-sm ml-auto">
             <b>- Full Time</b>
@@ -230,6 +206,30 @@ export default function Home() {
             and filter token examp. <br /> • Web App Voting elections are held.
             <br /> • <b>Programming Languages & Technology Used: </b> PHP,
             Codeigniter and MYSQL.
+          </Paragraph>
+        </div>
+        <hr />
+
+        <div className="flex space-x-2 items-center w-fit">
+          <Heading as="h3">PT Javan Cipta Solusi</Heading>
+          <span className="text-sm ml-auto">
+            <b>- Full Time / Internship</b>
+          </span>
+        </div>
+        <Paragraph className="font-semibold mt-0.5 flex items-center">
+          <span className="mr-20">Backend Developer Java Spring Boot</span>
+          <span className="text-sm ml-auto">Sep 2024 – Des 2024</span>
+        </Paragraph>
+        <div className="space-y-1">
+          <Paragraph>
+            • Implementation unit testing development backend and utilization
+            supprot with BPMN & Camunda. <br /> • Manajement project with portal
+            AWS apps, PostgreSQL as basis data, Apidog as testing tools, Gitlab
+            for collaboration team, as does taiga for work manajement progress.{" "}
+            <br /> • Learn library tools from PT Javan this is AlurKerja and
+            implementaion project LMS XL Tower Dismantle.
+            <br /> • <b>Programming Languages & Technology Used: </b> Java,
+            Spring Boot, PostgreSQL and BPMN & Camunda.
           </Paragraph>
         </div>
         <hr />
